@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Document</title>
   </head>
@@ -27,7 +27,7 @@
       <div id="vocabulary"></div>
 
 
-    <script>
+    <script>         
           
     fetch("./data.json")
       .then((response) => response.json())
@@ -36,19 +36,15 @@
         let vocabulary = document.querySelector('#vocabulary')
 
         words.forEach(word => {
-          console.log(word)
-          if(word.class !== 'verb') return;
+            if(word.class !== 'verb') return;
+            console.log(word)
 
 
-          let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : 'die';
-          let color = word.gender === 'm' ? 'blue' : word.gender === 'n' ? 'green' : word.gender === 'f' ? 'red' : 'purple';
-
-          let newWord = `<p><span><span style="color:${color}">●</span> <span>${article}</span> <span>${word.german}</span></span> <span>${word.english}</span></p>`;
+          let newWord = `<p><span>${word.german}</span> <span>${word.english}</span></p>`;
 
           vocabulary.innerHTML += newWord;
         })
       });
-
     </script>
   </body>
 </html>
