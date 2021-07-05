@@ -28,13 +28,14 @@
 
     <script>
       
-fetch("./data.json")
-  .then((response) => response.json())
-  .then((data) => {
-    let words = data;
-    let vocabulary = document.querySelector('#vocabulary')
+          
+    fetch("./data.json")
+      .then((response) => response.json())
+      .then((data) => {
+        let words = data;
+        let vocabulary = document.querySelector('#vocabulary')
 
-    words.forEach(word => {
+        words.forEach(word => {
           if(!word.hasOwnProperty('gender')) return;
 
           let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : 'die';
@@ -43,8 +44,9 @@ fetch("./data.json")
           let newWord = `<p><span><span style="color:${color}">●</span> <span>${article}</span> <span>${word.german}</span></span> <span>${word.english}</span></p>`;
 
           vocabulary.innerHTML += newWord;
-    })
-  });
+        })
+      });
+
 
     </script>
   </body>
