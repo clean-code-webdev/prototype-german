@@ -35,7 +35,7 @@ fetch("./data.json")
     let vocabulary = document.querySelector('#vocabulary')
 
     words.forEach(word => {
-      let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : 'die';
+      let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : word.gender === 'f' ? 'die' : null;
       let color = word.gender === 'm' ? 'blue' : word.gender === 'n' ? 'green' : word.gender === 'f' ? 'red' : 'purple';
 
 
