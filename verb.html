@@ -37,12 +37,9 @@
 
         words.forEach(word => {
             if(word.class !== 'verb') return;
-            console.log(word)
+            let newWord = `<p><span>${word.german}</span> <span>${word.english}</span></p>`;
 
-
-          let newWord = `<p><span>${word.german}</span> <span>${word.english}</span></p>`;
-
-          vocabulary.innerHTML += newWord;
+            vocabulary.innerHTML += newWord;
         })
       });
     </script>
