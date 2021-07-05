@@ -11,14 +11,23 @@
   </head>
 
   <body>
+
+
+    <div id="password">
+      <input type="text" id="pass-input">
+
+      <button id="pass-btn">enter</button>
+    </div>
+
+
     <div id="wrapper">
       <div id="topics">
-        <a href="./index.html"> <button class="topic">Artikel</button></a>
         <a href="#">
           <button class="topic" style="box-shadow: 2px 2px 5px black">
-            kein / keine
+            Artikel
           </button></a
         >
+        <a href="./kein.html"> <button class="topic">kein / keine</button></a>
         <a href="./worter.html"> <button class="topic">Wörter</button></a>
       </div>
 
@@ -31,8 +40,10 @@
       <div id="translation"></div>
 
       <div id="buttons" class="article-btn-options">
-        <button gender="m n" class="btn">kein</button>
-        <button gender="f p" class="btn">keine</button>
+        <button gender="m" class="btn">der</button>
+        <button gender="f" class="btn">die</button>
+        <button gender="n" class="btn">das</button>
+        <button gender="p" class="btn">die (Pl.)</button>
       </div>
 
       <div id="translation-option">
@@ -40,7 +51,7 @@
       </div>
     </div>
 
-    <!-- <script src="./kein.js"></script> -->
+    <!-- <script src="./app.js"></script> -->
 
     <script>
       class Init {
@@ -65,18 +76,11 @@
     });
   };
 
-  defineArticle = () => {
-    let wordGender = this.currentWord.gender;
-
-    if (wordGender === "m") return "der";
-    else if (wordGender === "n") return "das";
-    else return "die";
-  };
-
   displayWord = (word) => {
     let display = document.querySelector("#word");
-    let article = this.defineArticle();
-    display.innerHTML = `${article} ${word.german}`;
+    display.innerHTML = word.german;
+    // translation.innerHTML = word.english;
+    // translation.innerHTML = "";
 
     let translation = document.querySelector("#translation");
     if (this.isTranslationDisplayed) translation.innerText = word.english;
@@ -89,7 +93,7 @@
     buttons.forEach((btn) => {
       let buttonGender = btn.getAttribute("gender");
       let workGender = word.gender;
-      let correctAnswer = buttonGender.includes(workGender);
+      let correctAnswer = buttonGender === workGender;
 
       btn.className = "btn";
 
@@ -187,15 +191,36 @@
   };
 }
 
-fetch("./data.json")
-  .then((response) => response.json())
-  .then((data) => {
-    let words = data;
 
-    const init = new Init(words);
-    init.init();
-  });
 
+  function enterPassword() {
+    let btn = document.querySelector('#pass-btn')
+    
+    btn.addEventListener('click', () => {
+      let input = document.querySelector('#pass-input').value
+      console.log(input)
+
+      if(input === 'abracadabra') {
+        let password = document.querySelector('#password')
+        let wrapper = document.querySelector('#wrapper')
+
+        password.style.display = 'none'
+        wrapper.style.display = 'block'
+
+                
+        fetch("./data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          let words = data;
+
+          const init = new Init(words);
+          init.init();
+        });
+      }
+    })
+  }
+
+  enterPassword()
     </script>
   </body>
 </html>
