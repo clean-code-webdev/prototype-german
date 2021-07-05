@@ -182,33 +182,14 @@
         };
       }
 
-      function enterPassword() {
-        let btn = document.querySelector("#pass-btn");
+      fetch("./data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          let words = data;
 
-        btn.addEventListener("click", () => {
-          let input = document.querySelector("#pass-input").value;
-          console.log(input);
-
-          if (input === "abracadabra") {
-            let password = document.querySelector("#password");
-            let wrapper = document.querySelector("#wrapper");
-
-            password.style.display = "none";
-            wrapper.style.display = "block";
-
-            fetch("./data.json")
-              .then((response) => response.json())
-              .then((data) => {
-                let words = data;
-
-                const init = new Init(words);
-                init.init();
-              });
-          }
+          const init = new Init(words);
+          init.init();
         });
-      }
-
-      enterPassword();
     </script>
   </body>
 </html>
