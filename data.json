@@ -217,5 +217,6 @@
   { "german": "zimmer", "english": "room", "gender": "n" },
   { "german": "zoo", "english": "zoo", "gender": "m" },
   { "german": "zug", "english": "train", "gender": "m" },
-  { "german": "zwiebel", "english": "onion", "gender": "f" }
+  { "german": "zwiebel", "english": "onion", "gender": "f" },
+  { "german": "zzz", "english": "test", "gender": "f" }
 ]
