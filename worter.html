@@ -35,10 +35,14 @@ fetch("./data.json")
     let vocabulary = document.querySelector('#vocabulary')
 
     words.forEach(word => {
-      let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : word.gender === 'f' ? 'die' : null;
+      let article;
+
+      if(word.gender === 'm') article = 'der';
+      if(word.gender === 'n') article = 'das';
+      if(word.gender === 'f') article = 'die';
+      if(word.gender === 'p') article = 'die';
+      
       let color = word.gender === 'm' ? 'blue' : word.gender === 'n' ? 'green' : word.gender === 'f' ? 'red' : 'purple';
-
-
       let newWord = `<p><span><span style="color:${color}">●</span> <span>${article}</span> <span>${word.german}</span></span> <span>${word.english}</span></p>`;
 
 
