@@ -35,7 +35,7 @@
         let vocabulary = document.querySelector('#vocabulary')
 
         words.forEach(word => {
-          if(word.gender === '') return;
+          if(word.class !== 'noun') return;
 
           let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : word.gender === 'f' ? 'die' : '';
           let color = word.gender === 'm' ? 'blue' : word.gender === 'n' ? 'green' : word.gender === 'f' ? 'red' : 'purple';
