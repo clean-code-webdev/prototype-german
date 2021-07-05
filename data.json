@@ -218,5 +218,5 @@
   { "german": "zoo", "english": "zoo", "gender": "m" },
   { "german": "zug", "english": "train", "gender": "m" },
   { "german": "zwiebel", "english": "onion", "gender": "f" },
-  { "german": "zzz", "english": "test", "gender": "f" }
+  { "german": "zzz", "english": "test", "gender": "v" }
 ]
