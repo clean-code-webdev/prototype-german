@@ -563,15 +563,35 @@
   { "german": "zoo", "english": "zoo", "gender": "m", "class": "noun" },
   { "german": "zug", "english": "train", "gender": "m", "class": "noun" },
   { "german": "zwiebel", "english": "onion", "gender": "f", "class": "noun" },
-  { "german": "kommen", "english": "to come", "gender": "", "class": "v" },
-  { "german": "heißen", "english": "to be called", "gender": "", "class": "v" },
-  { "german": "sein", "english": "to be", "gender": "", "class": "v" },
-  { "german": "schreiben", "english": "to write", "gender": "", "class": "v" },
-  { "german": "arbeiten", "english": "to work", "gender": "", "class": "v" },
-  { "german": "leben", "english": "to live", "gender": "", "class": "v" },
-  { "german": "wohnen", "english": "to live at", "gender": "", "class": "v" },
-  { "german": "haben", "english": "to have", "gender": "", "class": "v" },
-  { "german": "sprechen", "english": "to speak", "gender": "", "class": "v" },
+  { "german": "kommen", "english": "to come", "gender": "", "class": "verb" },
+  {
+    "german": "heißen",
+    "english": "to be called",
+    "gender": "",
+    "class": "verb"
+  },
+  { "german": "sein", "english": "to be", "gender": "", "class": "verb" },
+  {
+    "german": "schreiben",
+    "english": "to write",
+    "gender": "",
+    "class": "verb"
+  },
+  { "german": "arbeiten", "english": "to work", "gender": "", "class": "verb" },
+  { "german": "leben", "english": "to live", "gender": "", "class": "verb" },
+  {
+    "german": "wohnen",
+    "english": "to live at",
+    "gender": "",
+    "class": "verb"
+  },
+  { "german": "haben", "english": "to have", "gender": "", "class": "verb" },
+  {
+    "german": "sprechen",
+    "english": "to speak",
+    "gender": "",
+    "class": "verb"
+  },
   { "german": "sprache", "english": "language", "gender": "", "class": "f" },
   { "german": "groß", "english": "big", "gender": "", "class": "adj" },
   { "german": "klein", "english": "small", "gender": "", "class": "adj" },
@@ -586,7 +606,7 @@
     "german": "buchstabieren",
     "english": "to spell",
     "gender": "",
-    "class": "v"
+    "class": "verb"
   },
   { "german": "morgen", "english": "morning", "gender": "m", "class": "noun" },
   { "german": "abend", "english": "evening", "gender": "m", "class": "noun" },
