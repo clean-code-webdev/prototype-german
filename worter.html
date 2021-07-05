@@ -37,7 +37,7 @@
         words.forEach(word => {
           if(!word.hasOwnProperty('gender')) return;
 
-          let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : 'die';
+          let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : word.gender === 'f' ? 'die' : '';
           let color = word.gender === 'm' ? 'blue' : word.gender === 'n' ? 'green' : word.gender === 'f' ? 'red' : 'purple';
 
           let newWord = `<p><span><span style="color:${color}">●</span> <span>${article}</span> <span>${word.german}</span></span> <span>${word.english}</span></p>`;
