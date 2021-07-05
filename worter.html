@@ -36,7 +36,9 @@ fetch("./data.json")
 
     words.forEach(word => {
       let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : 'die';
-      let newWord = `<p><span>${article} ${word.german}</span> <span>${word.english}</span></p>`;
+      let color = word.gender === 'm' ? 'blue' : word.gender === 'n' ? 'green' : 'red';
+
+      let newWord = `<p><span style="color:${color}">${article} ${word.german}</span> <span>${word.english}</span></p>`;
 
       vocabulary.innerHTML += newWord;
     })
