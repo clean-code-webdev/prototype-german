@@ -4,23 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>German Prototype</title>
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
 
     <title>Document</title>
   </head>
 
   <body>
-
-
-    <div id="password">
-      <input type="text" id="pass-input">
-
-      <button id="pass-btn">enter</button>
-    </div>
-
-
     <div id="wrapper">
       <div id="topics">
         <a href="#">
@@ -56,172 +46,169 @@
 
     <script>
       class Init {
-  constructor(words) {
-    this.words = words;
-    this.isTranslationDisplayed = false;
-    this.currentWord = "";
-  }
-
-  getWord = () => {
-    let index = Math.floor(Math.random() * this.words.length);
-    return this.words[index];
-  };
-
-  enableButtons = () => {
-    let buttons = document.querySelectorAll(".btn");
-
-    buttons.forEach((btn) => {
-      btn.style.background = "white";
-
-      btn.disabled = false;
-    });
-  };
-
-  displayWord = (word) => {
-    let display = document.querySelector("#word");
-    display.innerHTML = word.german;
-    // translation.innerHTML = word.english;
-    // translation.innerHTML = "";
-
-    let translation = document.querySelector("#translation");
-    if (this.isTranslationDisplayed) translation.innerText = word.english;
-    else translation.innerText = "";
-  };
-
-  setAnswer = (word) => {
-    let buttons = document.querySelectorAll(".btn");
-
-    buttons.forEach((btn) => {
-      let buttonGender = btn.getAttribute("gender");
-      let workGender = word.gender;
-      let correctAnswer = buttonGender === workGender;
-
-      btn.className = "btn";
-
-      if (correctAnswer) btn.className += " right";
-      else btn.className += " wrong";
-    });
-  };
-
-  checkAnswer = (btn) => {
-    const classes = btn.className.split(" ").includes("right");
-
-    if (classes) {
-      return true;
-    } else {
-      btn.disabled = true;
-      return false;
-    }
-  };
-
-  updateScore = (res) => {
-    let rightScore = document.querySelector("#right");
-    let wrongScore = document.querySelector("#wrong");
-
-    if (res === true) {
-      rightScore.innerText = parseInt(rightScore.innerText) + 1;
-      return;
-    }
-
-    wrongScore.innerText = parseInt(wrongScore.innerText) + 1;
-  };
-
-  reset = () => {
-    setTimeout(() => {
-      this.tryAnswer();
-    }, 500);
-  };
-
-  updateTranslation = () => {
-    let translationBtn = document.querySelector("#translation-btn");
-    let translation = document.querySelector("#translation");
-
-    translationBtn.addEventListener("click", () => {
-      if (this.isTranslationDisplayed) {
-        translation.innerText = this.currentWord.english;
-      } else translation.innerText = "";
-    });
-  };
-
-  toggleTranslationDisplayOption = () => {
-    let translationBtn = document.querySelector("#translation-btn");
-
-    translationBtn.addEventListener("click", () => {
-      let option = translationBtn.innerText;
-
-      if (option.toLowerCase() === "show english") {
-        translationBtn.innerText = "hide English";
-        this.isTranslationDisplayed = true;
-      } else {
-        translationBtn.innerText = "show English";
-        this.isTranslationDisplayed = false;
-      }
-    });
-  };
-
-  tryAnswer = () => {
-    this.currentWord = this.getWord();
-    this.enableButtons();
-    this.displayWord(this.currentWord);
-    this.setAnswer(this.currentWord);
-  };
-
-  init = () => {
-    this.tryAnswer();
-    this.toggleTranslationDisplayOption();
-    this.updateTranslation();
-
-    let buttons = document.querySelectorAll(".btn");
-
-    for (let i = 0; i < buttons.length; i++) {
-      buttons[i].addEventListener("click", (e) => {
-        let btn = e.target;
-        let res = this.checkAnswer(btn);
-
-        if (res) {
-          buttons[i].style.background = "#08e013";
-          this.reset();
-          this.updateScore(true);
-        } else {
-          btn.style.background = "#e00808";
-
-          this.updateScore(false);
+        constructor(words) {
+          this.words = words;
+          this.isTranslationDisplayed = false;
+          this.currentWord = "";
         }
-      });
-    }
-  };
-}
 
+        getWord = () => {
+          let index = Math.floor(Math.random() * this.words.length);
+          return this.words[index];
+        };
 
+        enableButtons = () => {
+          let buttons = document.querySelectorAll(".btn");
 
-  function enterPassword() {
-    let btn = document.querySelector('#pass-btn')
-    
-    btn.addEventListener('click', () => {
-      let input = document.querySelector('#pass-input').value
-      console.log(input)
+          buttons.forEach((btn) => {
+            btn.style.background = "white";
 
-      if(input === 'abracadabra') {
-        let password = document.querySelector('#password')
-        let wrapper = document.querySelector('#wrapper')
+            btn.disabled = false;
+          });
+        };
 
-        password.style.display = 'none'
-        wrapper.style.display = 'block'
+        displayWord = (word) => {
+          let display = document.querySelector("#word");
+          display.innerHTML = word.german;
+          // translation.innerHTML = word.english;
+          // translation.innerHTML = "";
 
-                
-        fetch("./data.json")
-        .then((response) => response.json())
-        .then((data) => {
-          let words = data;
+          let translation = document.querySelector("#translation");
+          if (this.isTranslationDisplayed) translation.innerText = word.english;
+          else translation.innerText = "";
+        };
 
-          const init = new Init(words);
-          init.init();
+        setAnswer = (word) => {
+          let buttons = document.querySelectorAll(".btn");
+
+          buttons.forEach((btn) => {
+            let buttonGender = btn.getAttribute("gender");
+            let workGender = word.gender;
+            let correctAnswer = buttonGender === workGender;
+
+            btn.className = "btn";
+
+            if (correctAnswer) btn.className += " right";
+            else btn.className += " wrong";
+          });
+        };
+
+        checkAnswer = (btn) => {
+          const classes = btn.className.split(" ").includes("right");
+
+          if (classes) {
+            return true;
+          } else {
+            btn.disabled = true;
+            return false;
+          }
+        };
+
+        updateScore = (res) => {
+          let rightScore = document.querySelector("#right");
+          let wrongScore = document.querySelector("#wrong");
+
+          if (res === true) {
+            rightScore.innerText = parseInt(rightScore.innerText) + 1;
+            return;
+          }
+
+          wrongScore.innerText = parseInt(wrongScore.innerText) + 1;
+        };
+
+        reset = () => {
+          setTimeout(() => {
+            this.tryAnswer();
+          }, 500);
+        };
+
+        updateTranslation = () => {
+          let translationBtn = document.querySelector("#translation-btn");
+          let translation = document.querySelector("#translation");
+
+          translationBtn.addEventListener("click", () => {
+            if (this.isTranslationDisplayed) {
+              translation.innerText = this.currentWord.english;
+            } else translation.innerText = "";
+          });
+        };
+
+        toggleTranslationDisplayOption = () => {
+          let translationBtn = document.querySelector("#translation-btn");
+
+          translationBtn.addEventListener("click", () => {
+            let option = translationBtn.innerText;
+
+            if (option.toLowerCase() === "show english") {
+              translationBtn.innerText = "hide English";
+              this.isTranslationDisplayed = true;
+            } else {
+              translationBtn.innerText = "show English";
+              this.isTranslationDisplayed = false;
+            }
+          });
+        };
+
+        tryAnswer = () => {
+          this.currentWord = this.getWord();
+          this.enableButtons();
+          this.displayWord(this.currentWord);
+          this.setAnswer(this.currentWord);
+        };
+
+        init = () => {
+          this.tryAnswer();
+          this.toggleTranslationDisplayOption();
+          this.updateTranslation();
+
+          let buttons = document.querySelectorAll(".btn");
+
+          for (let i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", (e) => {
+              let btn = e.target;
+              let res = this.checkAnswer(btn);
+
+              if (res) {
+                buttons[i].style.background = "#08e013";
+                this.reset();
+                this.updateScore(true);
+              } else {
+                btn.style.background = "#e00808";
+
+                this.updateScore(false);
+              }
+            });
+          }
+        };
+      }
+
+      function enterPassword() {
+        let btn = document.querySelector("#pass-btn");
+
+        btn.addEventListener("click", () => {
+          let input = document.querySelector("#pass-input").value;
+          console.log(input);
+
+          if (input === "abracadabra") {
+            let password = document.querySelector("#password");
+            let wrapper = document.querySelector("#wrapper");
+
+            password.style.display = "none";
+            wrapper.style.display = "block";
+
+            fetch("./data.json")
+              .then((response) => response.json())
+              .then((data) => {
+                let words = data;
+
+                const init = new Init(words);
+                init.init();
+              });
+          }
         });
       }
-    })
-  }
 
-  enterPassword()
+      enterPassword();
     </script>
   </body>
 </html>
