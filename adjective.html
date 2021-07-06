@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="topics">
+        <a href="./index.html"> <button class="topic">Artikel</button></a>
+        <a href="./kein.html"> <button class="topic">kein / keine</button></a>
+        <a href="./worter.html"> <button class="topic">Nomen</button></a>
+        <a href="./verb.html"> <button class="topic">Verb</button></a>
+        <a href="#">
+          <button class="topic" style="box-shadow: 2px 2px 5px black">
+            Adjective
+          </button></a
+          >
+          <a href="./adverb.html"> <button class="topic">Adverb</button></a>
+      </div>
+
+      <div id="counter"></div>
+
+
+      <div id="vocabulary"></div>
+
+
+    <script>
+          
+      fetch("./data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          let words = data;
+          let vocabulary = document.querySelector('#vocabulary')
+          let counterElement = document.querySelector('#counter')
+          let counter = 0;
+  
+          words.forEach(word => {
+            if(word.class !== 'adj') return;
+  
+            counter++
+  
+            
+            let newWord = `<p><span>${word.german}</span> <span>${word.english}</span></p>`;
+  
+            vocabulary.innerHTML += newWord;
+          })
+  
+          counterElement.innerHTML = counter + ' adjectives'
+        });
+
+    </script>
+  </body>
+</html>
