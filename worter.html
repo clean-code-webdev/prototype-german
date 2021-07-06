@@ -19,9 +19,13 @@
           <button class="topic" style="box-shadow: 2px 2px 5px black">
             Nomen
           </button></a
-        >
-        <a href="./verb.html"> <button class="topic">Verb</button></a>
+          >
+          <a href="./verb.html"> <button class="topic">Verb</button></a>
+          <a href="./adjective.html"> <button class="topic">Adjective</button></a>
+          <a href="./adverb.html"> <button class="topic">Adverb</button></a>
       </div>
+
+      <div id="counter"></div>
 
 
       <div id="vocabulary"></div>
@@ -34,9 +38,13 @@
       .then((data) => {
         let words = data;
         let vocabulary = document.querySelector('#vocabulary')
+        let counterElement = document.querySelector('#counter')
+        let counter = 0;
 
         words.forEach(word => {
           if(word.class !== 'noun') return;
+
+          counter++
 
           let article = word.gender === 'm' ? 'der' : word.gender === 'n' ? 'das' : 'die';
           let color = word.gender === 'm' ? 'blue' : word.gender === 'n' ? 'green' : word.gender === 'f' ? 'red' : 'purple';
@@ -45,6 +53,8 @@
 
           vocabulary.innerHTML += newWord;
         })
+
+        counterElement.innerHTML = counter + ' nouns'
       });
 
     </script>
