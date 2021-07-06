@@ -152,6 +152,11 @@
 
         tryAnswer = () => {
           this.currentWord = this.getWord();
+
+          while (this.currentWord.class !== "noun") {
+            this.currentWord = this.getWord();
+          }
+
           this.enableButtons();
           this.displayWord(this.currentWord);
           this.setAnswer(this.currentWord);
