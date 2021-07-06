@@ -19,7 +19,7 @@
   { "german": "angebot", "english": "offer", "gender": "n", "class": "noun" },
   { "german": "apfel", "english": "apple", "gender": "m", "class": "noun" },
   { "german": "äpfel", "english": "apples", "gender": "p", "class": "noun" },
-  { "german": "arbeiten", "english": "to work", "gender": "", "class": "v" },
+  { "german": "arbeiten", "english": "to work", "gender": "", "class": "verb" },
   {
     "german": "arbeitszimmer",
     "english": "study (room)",
@@ -113,7 +113,7 @@
     "german": "buchstabieren",
     "english": "to spell",
     "gender": "",
-    "class": "v"
+    "class": "verb"
   },
   { "german": "bus", "english": "bus", "gender": "m", "class": "noun" },
   { "german": "butter", "english": "butter", "gender": "f", "class": "noun" },
@@ -314,7 +314,7 @@
     "class": "noun"
   },
   { "german": "gut", "english": "good", "gender": "", "class": "adj" },
-  { "german": "haben", "english": "to have", "gender": "", "class": "v" },
+  { "german": "haben", "english": "to have", "gender": "", "class": "verb" },
   {
     "german": "hackfleisch",
     "english": "minced meat",
@@ -343,7 +343,12 @@
   { "german": "haus", "english": "house", "gender": "n", "class": "noun" },
   { "german": "haus", "english": "house", "gender": "n", "class": "noun" },
   { "german": "heft", "english": "notebook", "gender": "n", "class": "noun" },
-  { "german": "heißen", "english": "to be called", "gender": "", "class": "v" },
+  {
+    "german": "heißen",
+    "english": "to be called",
+    "gender": "",
+    "class": "verb"
+  },
   { "german": "herbst", "english": "autumn", "gender": "m", "class": "noun" },
   { "german": "herd", "english": "oven", "gender": "m", "class": "noun" },
   { "german": "hotel", "english": "hotel", "gender": "n", "class": "noun" },
@@ -400,7 +405,7 @@
     "class": "noun"
   },
   { "german": "köchin", "english": "cook", "gender": "f", "class": "noun" },
-  { "german": "kommen", "english": "to come", "gender": "", "class": "v" },
+  { "german": "kommen", "english": "to come", "gender": "", "class": "verb" },
   { "german": "kontext", "english": "context", "gender": "m", "class": "noun" },
   {
     "german": "kraft",
@@ -442,7 +447,7 @@
   { "german": "lampe", "english": "lamp", "gender": "f", "class": "noun" },
   { "german": "laptop", "english": "laptop", "gender": "m", "class": "noun" },
   { "german": "lauch", "english": "leek", "gender": "m", "class": "noun" },
-  { "german": "leben", "english": "to live", "gender": "", "class": "v" },
+  { "german": "leben", "english": "to live", "gender": "", "class": "verb" },
   {
     "german": "lebensstil",
     "english": "lifestyle",
@@ -630,7 +635,12 @@
     "gender": "m",
     "class": "noun"
   },
-  { "german": "schreiben", "english": "to write", "gender": "", "class": "v" },
+  {
+    "german": "schreiben",
+    "english": "to write",
+    "gender": "",
+    "class": "verb"
+  },
   {
     "german": "schreibtisch",
     "english": "desk",
@@ -688,7 +698,7 @@
     "gender": "n",
     "class": "noun"
   },
-  { "german": "sein", "english": "to be", "gender": "", "class": "v" },
+  { "german": "sein", "english": "to be", "gender": "", "class": "verb" },
   { "german": "seite", "english": "page", "gender": "f", "class": "noun" },
   { "german": "sessel", "english": "armchair", "gender": "m", "class": "noun" },
   { "german": "sklave", "english": "slave", "gender": "m", "class": "noun" },
@@ -716,7 +726,12 @@
   { "german": "spinne", "english": "spider", "gender": "f", "class": "noun" },
   { "german": "sport", "english": "sport", "gender": "m", "class": "noun" },
   { "german": "sprache", "english": "language", "gender": "", "class": "f" },
-  { "german": "sprechen", "english": "to speak", "gender": "", "class": "v" },
+  {
+    "german": "sprechen",
+    "english": "to speak",
+    "gender": "",
+    "class": "verb"
+  },
   { "german": "staat", "english": "state", "gender": "m", "class": "noun" },
   { "german": "stadt", "english": "city", "gender": "f", "class": "noun" },
   { "german": "stern", "english": "star", "gender": "m", "class": "noun" },
@@ -839,7 +854,12 @@
     "class": "verb"
   },
   { "german": "winter", "english": "winter", "gender": "m", "class": "noun" },
-  { "german": "wohnen", "english": "to live at", "gender": "", "class": "v" },
+  {
+    "german": "wohnen",
+    "english": "to live at",
+    "gender": "",
+    "class": "verb"
+  },
   {
     "german": "wohnung",
     "english": "apartment",
