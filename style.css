@@ -40,6 +40,8 @@ body #wrapper #topics {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 0.1rem solid black;
@@ -52,6 +54,7 @@ body #wrapper #topics .topic {
   border-radius: 0.5rem;
   padding: 0.5rem;
   cursor: pointer;
+  margin: 1rem;
 }
 
 body #wrapper #score {
@@ -119,7 +122,15 @@ body #wrapper #translation-option {
   cursor: pointer;
 }
 
+body #wrapper #counter {
+  font-size: 1.3rem;
+  padding: 0 0.5rem 1.5rem;
+  border-bottom: 0.1rem solid black;
+  margin-bottom: 3rem;
+}
+
 body #wrapper #vocabulary p {
+  letter-spacing: 0.1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
