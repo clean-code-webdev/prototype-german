@@ -20,8 +20,12 @@
           <button class="topic" style="box-shadow: 2px 2px 5px black">
             Verb
           </button></a
-        >
+          >
+          <a href="./adjective.html"> <button class="topic">Adjective</button></a>
+          <a href="./adverb.html"> <button class="topic">Adverb</button></a>
       </div>
+
+      <div id="counter"></div>
 
 
       <div id="vocabulary"></div>
@@ -34,14 +38,21 @@
       .then((data) => {
         let words = data;
         let vocabulary = document.querySelector('#vocabulary')
+        let counterElement = document.querySelector('#counter')
+        let counter = 0;
 
         words.forEach(word => {
           if(word.class !== 'verb') return;
+
+          counter++
+
           
           let newWord = `<p><span>${word.german}</span> <span>${word.english}</span></p>`;
 
           vocabulary.innerHTML += newWord;
         })
+
+        counterElement.innerHTML = counter + ' verbs'
       });
 
     </script>
