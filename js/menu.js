@@ -10,7 +10,7 @@ export class Menu {
       if (topics.includes(word.class)) return;
       topics.push(word.class);
     });
-    return topics;
+    return topics.sort();
   };
 
   getUrl = () => {
