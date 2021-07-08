@@ -894,5 +894,181 @@
     "class": "adj"
   },
   { "german": "zug", "english": "train", "gender": "m", "class": "noun" },
-  { "german": "zwiebel", "english": "onion", "gender": "f", "class": "noun" }
+  { "german": "zwiebel", "english": "onion", "gender": "f", "class": "noun" },
+  { "german": "schwer", "english": "difficult", "gender": "", "class": "adj" },
+  {
+    "german": "sofort",
+    "english": "immediately",
+    "gender": "",
+    "class": "adv"
+  },
+  {
+    "german": "gefallen",
+    "english": "to pease s.b.",
+    "gender": "",
+    "class": "verb"
+  },
+  { "german": "breit", "english": "broad", "gender": "", "class": "adj" },
+  {
+    "german": "verlieben",
+    "english": "to fall in love",
+    "gender": "",
+    "class": "verb"
+  },
+  { "german": "träumen", "english": "to dream", "gender": "", "class": "verb" },
+  { "german": "traum", "english": "dream", "gender": "m", "class": "noun" },
+  { "german": "sagen", "english": "to say", "gender": "", "class": "verb" },
+  { "german": "lachen", "english": "to laught", "gender": "", "class": "verb" },
+  { "german": "leben", "english": "to live", "gender": "", "class": "verb" },
+  { "german": "glücklich", "english": "happy", "gender": "", "class": "adj" },
+  {
+    "german": "flugzeug",
+    "english": "airplane",
+    "gender": "n",
+    "class": "noun"
+  },
+  { "german": "bus", "english": "bus", "gender": "m", "class": "noun" },
+  { "german": "zug", "english": "train", "gender": "m", "class": "noun" },
+  {
+    "german": "verheiratet",
+    "english": "married",
+    "gender": "",
+    "class": "adj"
+  },
+  { "german": "gehen", "english": "to go", "gender": "", "class": "verb" },
+  { "german": "reisen", "english": "to travel", "gender": "", "class": "verb" },
+  { "german": "spieler", "english": "player", "gender": "m", "class": "noun" },
+  { "german": "münze", "english": "coin", "gender": "f", "class": "noun" },
+  { "german": "geld", "english": "money", "gender": "n", "class": "noun" },
+  {
+    "german": "kleingeld",
+    "english": "change (money)",
+    "gender": "n",
+    "class": "noun"
+  },
+  { "german": "kosten", "english": "to cost", "gender": "", "class": "verb" },
+  {
+    "german": "hinzufügen",
+    "english": "to add",
+    "gender": "",
+    "class": "verb"
+  },
+  {
+    "german": "fleiß",
+    "english": "dilligence",
+    "gender": "m",
+    "class": "noun"
+  },
+  { "german": "fleißig", "english": "dilligent", "gender": "", "class": "adj" },
+  { "german": "gleich", "english": "same", "gender": "", "class": "adj" },
+  { "german": "wichtig", "english": "important", "gender": "", "class": "adj" },
+  { "german": "zahl", "english": "number", "gender": "f", "class": "noun" },
+  { "german": "alter", "english": "age", "gender": "n", "class": "noun" },
+  { "german": "ding", "english": "thing", "gender": "n", "class": "noun" },
+  { "german": "lügen", "english": "to lie", "gender": "", "class": "verb" },
+  { "german": "tag", "english": "day", "gender": "m", "class": "noun" },
+  {
+    "german": "staat",
+    "english": "state (government)",
+    "gender": "m",
+    "class": "noun"
+  },
+  {
+    "german": "beruf",
+    "english": "profession",
+    "gender": "m",
+    "class": "noun"
+  },
+  {
+    "german": "verstanden",
+    "english": "to understand",
+    "gender": "",
+    "class": "verb"
+  },
+  { "german": "kuli", "english": "pen", "gender": "m", "class": "noun" },
+  { "german": "schlüssel", "english": "key", "gender": "m", "class": "noun" },
+  {
+    "german": "tabelle",
+    "english": "table (sheet)",
+    "gender": "f",
+    "class": "noun"
+  },
+  { "german": "sonst", "english": "else", "gender": "", "class": "adv" },
+  { "german": "sonder", "english": "without", "gender": "", "class": "prep" },
+  { "german": "finden", "english": "to find", "gender": "", "class": "verb" },
+  { "german": "bringen", "english": "to bring", "gender": "", "class": "verb" },
+  {
+    "german": "tauschen",
+    "english": "to exchange / to swap",
+    "gender": "",
+    "class": "verb"
+  },
+  { "german": "hässlich", "english": "ugly", "gender": "", "class": "adj" },
+  { "german": "gucken", "english": "to look", "gender": "", "class": "verb" },
+  { "german": "teuer", "english": "expensive", "gender": "", "class": "adj" },
+  { "german": "billig", "english": "cheap", "gender": "", "class": "adj" },
+  {
+    "german": "flur",
+    "english": "hall / corridor",
+    "gender": "m",
+    "class": "noun"
+  },
+  { "german": "frisch", "english": "fresh", "gender": "", "class": "adj" },
+  {
+    "german": "ausnutzen",
+    "english": "to exploit",
+    "gender": "",
+    "class": "verb"
+  },
+  { "german": "arm", "english": "poor", "gender": "", "class": "adj" },
+  { "german": "herd", "english": "stove", "gender": "m", "class": "noun" },
+  { "german": "hier", "english": "here", "gender": "", "class": "adv" },
+  { "german": "da", "english": "here", "gender": "", "class": "adv" },
+  { "german": "dort", "english": "there", "gender": "", "class": "adv" },
+  {
+    "german": "draußen",
+    "english": "outside / outdoors",
+    "gender": "",
+    "class": "adv"
+  },
+  { "german": "fast", "english": "almost", "gender": "", "class": "adv" },
+  { "german": "groß", "english": "big", "gender": "", "class": "adj" },
+  { "german": "klein", "english": "small", "gender": "", "class": "adj" },
+  {
+    "german": "hell",
+    "english": "light (color)",
+    "gender": "",
+    "class": "adj"
+  },
+  { "german": "dunkel", "english": "dark", "gender": "", "class": "adj" },
+  { "german": "sauber", "english": "clean", "gender": "", "class": "adj" },
+  { "german": "schmal", "english": "narrow", "gender": "", "class": "adj" },
+  { "german": "hoch", "english": "tall / high", "gender": "", "class": "adj" },
+  { "german": "ehrlich", "english": "honest", "gender": "", "class": "adj" },
+  {
+    "german": "unbedingt",
+    "english": "unconditional",
+    "gender": "",
+    "class": "adj"
+  },
+  { "german": "schwarz", "english": "black", "gender": "", "class": "color" },
+  { "german": "grau", "english": "gray", "gender": "", "class": "color" },
+  { "german": "weiß", "english": "white", "gender": "", "class": "color" },
+  { "german": "grün", "english": "green", "gender": "", "class": "color" },
+  { "german": "braun", "english": "brown", "gender": "", "class": "color" },
+  { "german": "blau", "english": "blue", "gender": "", "class": "color" },
+  { "german": "rot", "english": "red", "gender": "", "class": "color" },
+  { "german": "gelb", "english": "yellow", "gender": "", "class": "color" },
+  {
+    "german": "hellrot",
+    "english": "light red",
+    "gender": "",
+    "class": "color"
+  },
+  {
+    "german": "dunkelrot",
+    "english": "dark red",
+    "gender": "",
+    "class": "color"
+  }
 ]
