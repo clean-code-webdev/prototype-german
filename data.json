@@ -725,7 +725,7 @@
   { "german": "spinat", "english": "spinach", "gender": "m", "class": "noun" },
   { "german": "spinne", "english": "spider", "gender": "f", "class": "noun" },
   { "german": "sport", "english": "sport", "gender": "m", "class": "noun" },
-  { "german": "sprache", "english": "language", "gender": "", "class": "f" },
+  { "german": "sprache", "english": "language", "gender": "f", "class": "noun" },
   {
     "german": "sprechen",
     "english": "to speak",
