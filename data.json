@@ -321,12 +321,12 @@
     "gender": "n",
     "class": "noun"
   },
-  { "german": "hahn", "english": "cock / tap", "gender": "m", "class": "noun" },
+  { "german": "hahn", "english": "cock / tap", "gender": "m", "class": "animal" },
   {
     "german": "hähnchen",
     "english": "chicken",
     "gender": "n",
-    "class": "noun"
+    "class": "animal"
   },
   {
     "german": "handy",
@@ -352,12 +352,12 @@
   { "german": "herbst", "english": "autumn", "gender": "m", "class": "noun" },
   { "german": "herd", "english": "oven", "gender": "m", "class": "noun" },
   { "german": "hotel", "english": "hotel", "gender": "n", "class": "noun" },
-  { "german": "huhn", "english": "chicken", "gender": "n", "class": "noun" },
+  { "german": "huhn", "english": "chicken", "gender": "n", "class": "animal" },
   {
     "german": "hühnchen",
     "english": "(young) chicken",
     "gender": "n",
-    "class": "noun"
+    "class": "animal"
   },
   { "german": "hund", "english": "dog", "gender": "m", "class": "animal" },
   { "german": "hunger", "english": "hunger", "gender": "m", "class": "noun" },
