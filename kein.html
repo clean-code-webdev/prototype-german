@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
 
     <title>Document</title>
   </head>
 
   <body>
+    <div id="nav-icon">✤</div>
+
     <div id="wrapper">
       <div id="topics">
-        <a href="./index.html"> <button class="topic">Artikel</button></a>
-        <a href="#">
-          <button class="topic" style="box-shadow: 2px 2px 5px black">
-            kein / keine
-          </button></a
-        >
-        <a href="./worter.html"> <button class="topic">Nomen</button></a>
-        <a href="./verb.html"> <button class="topic">Verb</button></a>
-        <a href="./adjective.html"> <button class="topic">Adjective</button></a>
-        <a href="./adverb.html"> <button class="topic">Adverb</button></a>
+        <a href="./index.html"> <button class="topic">home</button></a>
+        <a href="./article.html"> <button class="topic">article</button></a>
+        <a href="./kein.html"> <button class="topic">kein / keine</button></a>
+      </div>
+
+      <div id="score">
+        <p>Richtig: <span id="right" class="score">0</span></p>
+        <p>Falsch: <span id="wrong" class="score">0</span></p>
       </div>
 
       <div id="word"></div>
@@ -37,6 +37,8 @@
         <h2 id="translation-btn">show English</h2>
       </div>
     </div>
+
+    <!-- <script src="./kein.js"></script> -->
 
     <script>
       class Init {
@@ -187,11 +189,90 @@
           }
         };
       }
+      class Menu {
+        constructor(words) {
+          this.words = words;
+        }
+        getTopics = () => {
+          let topics = [];
+          let words = this.words;
+
+          words.forEach((word) => {
+            if (topics.includes(word.class)) return;
+            topics.push(word.class);
+          });
+          return topics;
+        };
+
+        getUrl = () => {
+          let url = window.location.href;
+
+          url = url.split("/");
+          url = url[url.length - 1];
+          url = url.split(".")[0];
+          return url;
+        };
+
+        styleSelectedUrl = () => {
+          const url = this.getUrl();
+          console.log(url);
+          let topics = document.querySelectorAll("#topics a");
+
+          topics.forEach((topic) => {
+            console.log(topic);
+
+            if (topics.href === `./${url}.html`) {
+              topic.style.color = "red";
+
+              console.log(url);
+            }
+          });
+        };
+
+        makeMenu = () => {
+          const topics = this.getTopics();
+          let vocabularyTopics = document.querySelector("#topics");
+
+          topics.forEach((topic) => {
+            vocabularyTopics.innerHTML += `
+      <a href="./${topic}.html"> <button class="topic">${topic}</button></a>`;
+          });
+          console.log(topics);
+        };
+      }
+      class Nav {
+        open = () => {
+          let icon = document.querySelector("#nav-icon");
+          let topics = document.querySelector("#topics");
+
+          icon.addEventListener("click", () => {
+            topics.style.left = "0";
+            console.log("open");
+          });
+        };
+
+        close = () => {
+          let icon = document.querySelector("#wrapper");
+
+          icon.addEventListener("click", () => {
+            topics.style.left = "-30rem";
+            console.log("close");
+          });
+        };
+      }
 
       fetch("./data.json")
         .then((response) => response.json())
         .then((data) => {
           let words = data;
+
+          const menu = new Menu(words);
+          menu.makeMenu();
+          menu.styleSelectedUrl();
+
+          const nav = new Nav();
+          nav.open();
+          nav.close();
 
           const init = new Init(words);
           init.init();
