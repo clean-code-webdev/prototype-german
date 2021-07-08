@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
 
     <title>Document</title>
   </head>
@@ -26,83 +26,11 @@
       <div id="vocabulary"></div>
 
 
-    <script type="module">
-      import {Menu} from './menu.js';
-      
-      class Nav {
-        open = () => {
-          let icon = document.querySelector("#nav-icon");
-          let topics = document.querySelector("#topics");
-
-          icon.addEventListener("click", () => {
-            topics.style.left = "0";
-            console.log("open");
-          });
-        };
-
-        close = () => {
-          let icon = document.querySelector("#wrapper");
-
-          icon.addEventListener("click", () => {
-            topics.style.left = "-30rem";
-            console.log("close");
-          });
-        };
-      }
-      
-//       class Menu {
-//         constructor(words) {
-//           this.words = words;
-//         }
-//         getTopics = () => {
-//           let topics = [];
-//           let words = this.words;
-
-//           words.forEach((word) => {
-//             if (topics.includes(word.class)) return;
-//             topics.push(word.class);
-//           });
-//           return topics;
-//         };
-
-//         getUrl = () => {
-//           let url = window.location.href;
-
-//           url = url.split("/");
-//           url = url[url.length - 1];
-//           url = url.split(".")[0];
-//           return url;
-//         };
-
-//         styleSelectedUrl = () => {
-//           const url = this.getUrl();
-//           console.log(url);
-//           let topics = document.querySelectorAll("#topics a");
-
-//           topics.forEach((topic) => {
-//             console.log(topic);
-
-//             if (topics.href === `./${url}.html`) {
-//               topic.style.color = "red";
-
-//               console.log(url);
-//             }
-//           });
-//         };
-
-//         makeMenu = () => {
-//           const topics = this.getTopics();
-//           let vocabularyTopics = document.querySelector("#topics");
-
-//           topics.forEach((topic) => {
-//             vocabularyTopics.innerHTML += `
-//             <a href="./${topic}.html"> <button class="topic">${topic}</button></a>`;
-//           });
-//           console.log(topics);
-//         };
-//       }
+      <script type="module">
+        import {Nav} from './js/nav.js';
+        import {Menu} from './js/menu.js';
           
-    fetch("./data.json")
+      fetch("./json/data.json")
       .then((response) => response.json())
       .then((data) => {
         let words = data;
@@ -127,9 +55,9 @@
 
         counterElement.innerHTML = counter + ' verbs'
 
-const nav = new Nav();
-nav.open();
-nav.close();
+        const nav = new Nav();
+        nav.open();
+        nav.close();
       });
 
     </script>
