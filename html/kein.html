@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="nav-icon">✤</div>
+
+    <div id="wrapper">
+      <div id="topics">
+        <a href="../index.html"> <button class="topic">home</button></a>
+        <a href="./article.html"> <button class="topic">article</button></a>
+        <a href="./kein.html"> <button class="topic">kein / keine</button></a>
+      </div>
+
+      <div id="score">
+        <p>Richtig: <span id="right" class="score">0</span></p>
+        <p>Falsch: <span id="wrong" class="score">0</span></p>
+      </div>
+
+      <div id="word"></div>
+      <div id="translation"></div>
+
+      <div id="buttons" class="article-btn-options">
+        <button gender="m n" class="btn">kein</button>
+        <button gender="f p" class="btn">keine</button>
+      </div>
+
+      <div id="translation-option">
+        <h2 id="translation-btn">show English</h2>
+      </div>
+    </div>
+
+    <!-- <script src="./kein.js"></script> -->
+
+    <script type="module">
+      import { Nav } from "../js/nav.js";
+      import { Menu } from "../js/menu.js";
+
+      class Init {
+        constructor(words) {
+          this.words = words;
+          this.isTranslationDisplayed = false;
+          this.currentWord = "";
+        }
+
+        getWord = () => {
+          let index = Math.floor(Math.random() * this.words.length);
+          return this.words[index];
+        };
+
+        enableButtons = () => {
+          let buttons = document.querySelectorAll(".btn");
+
+          buttons.forEach((btn) => {
+            btn.style.background = "white";
+
+            btn.disabled = false;
+          });
+        };
+
+        defineArticle = () => {
+          let wordGender = this.currentWord.gender;
+
+          if (wordGender === "m") return "der";
+          else if (wordGender === "n") return "das";
+          else return "die";
+        };
+
+        displayWord = (word) => {
+          let display = document.querySelector("#word");
+          let article = this.defineArticle();
+          display.innerHTML = `${article} ${word.german}`;
+
+          let translation = document.querySelector("#translation");
+          if (this.isTranslationDisplayed) translation.innerText = word.english;
+          else translation.innerText = "";
+        };
+
+        setAnswer = (word) => {
+          let buttons = document.querySelectorAll(".btn");
+
+          buttons.forEach((btn) => {
+            let buttonGender = btn.getAttribute("gender");
+            let workGender = word.gender;
+            let correctAnswer = buttonGender.includes(workGender);
+
+            btn.className = "btn";
+
+            if (correctAnswer) btn.className += " right";
+            else btn.className += " wrong";
+          });
+        };
+
+        checkAnswer = (btn) => {
+          const classes = btn.className.split(" ").includes("right");
+
+          if (classes) {
+            return true;
+          } else {
+            btn.disabled = true;
+            return false;
+          }
+        };
+
+        updateScore = (res) => {
+          let rightScore = document.querySelector("#right");
+          let wrongScore = document.querySelector("#wrong");
+
+          if (res === true) {
+            rightScore.innerText = parseInt(rightScore.innerText) + 1;
+            return;
+          }
+
+          wrongScore.innerText = parseInt(wrongScore.innerText) + 1;
+        };
+
+        reset = () => {
+          setTimeout(() => {
+            this.tryAnswer();
+          }, 500);
+        };
+
+        updateTranslation = () => {
+          let translationBtn = document.querySelector("#translation-btn");
+          let translation = document.querySelector("#translation");
+
+          translationBtn.addEventListener("click", () => {
+            if (this.isTranslationDisplayed) {
+              translation.innerText = this.currentWord.english;
+            } else translation.innerText = "";
+          });
+        };
+
+        toggleTranslationDisplayOption = () => {
+          let translationBtn = document.querySelector("#translation-btn");
+
+          translationBtn.addEventListener("click", () => {
+            let option = translationBtn.innerText;
+
+            if (option.toLowerCase() === "show english") {
+              translationBtn.innerText = "hide English";
+              this.isTranslationDisplayed = true;
+            } else {
+              translationBtn.innerText = "show English";
+              this.isTranslationDisplayed = false;
+            }
+          });
+        };
+
+        tryAnswer = () => {
+          this.currentWord = this.getWord();
+
+          while (this.currentWord.class !== "noun") {
+            this.currentWord = this.getWord();
+          }
+
+          this.enableButtons();
+          this.displayWord(this.currentWord);
+          this.setAnswer(this.currentWord);
+        };
+
+        init = () => {
+          this.tryAnswer();
+          this.toggleTranslationDisplayOption();
+          this.updateTranslation();
+
+          let buttons = document.querySelectorAll(".btn");
+
+          for (let i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", (e) => {
+              let btn = e.target;
+              let res = this.checkAnswer(btn);
+
+              if (res) {
+                buttons[i].style.background = "#08e013";
+                this.reset();
+                this.updateScore(true);
+              } else {
+                btn.style.background = "#e00808";
+
+                this.updateScore(false);
+              }
+            });
+          }
+        };
+      }
+
+      fetch("../json/data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          let words = data;
+
+          const menu = new Menu(words);
+          menu.makeMenu();
+          menu.styleSelectedUrl();
+
+          const nav = new Nav();
+          nav.open();
+          nav.close();
+
+          const init = new Init(words);
+          init.init();
+        });
+    </script>
+  </body>
+</html>

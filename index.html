@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>German Prototype</title>
+  </head>
+
+  <body>
+    <div id="nav-icon">✤</div>
+
+    <div id="wrapper">
+      <div id="topics">
+        <a href="./index.html"> <button class="topic">home</button></a>
+        <a href="./html/article.html">
+          <button class="topic">article</button></a
+        >
+        <a href="./html/kein.html">
+          <button class="topic">kein / keine</button></a
+        >
+      </div>
+    </div>
+
+    <script type="module">
+      import { Nav } from "./js/nav.js";
+      import { Menu } from "./js/menu.js";
+
+      fetch("./json/data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          let words = data;
+
+          const menu = new Menu(words);
+          menu.makeMenu();
+          menu.styleSelectedUrl();
+
+          const nav = new Nav();
+          nav.open();
+          nav.close();
+        });
+    </script>
+  </body>
+</html>
