@@ -359,7 +359,7 @@
     "gender": "n",
     "class": "noun"
   },
-  { "german": "hund", "english": "dog", "gender": "m", "class": "noun" },
+  { "german": "hund", "english": "dog", "gender": "m", "class": "animal" },
   { "german": "hunger", "english": "hunger", "gender": "m", "class": "noun" },
   { "german": "idee", "english": "idea", "gender": "f", "class": "noun" },
   {
@@ -625,7 +625,12 @@
     "gender": "n",
     "class": "noun"
   },
-  { "german": "schlange", "english": "snake", "gender": "f", "class": "noun" },
+  {
+    "german": "schlange",
+    "english": "snake",
+    "gender": "f",
+    "class": "animal"
+  },
   { "german": "schlecht", "english": "bad", "gender": "", "class": "adj" },
   { "german": "schmutz", "english": "dirt", "gender": "m", "class": "noun" },
   { "german": "schön", "english": "beautiful", "gender": "", "class": "adj" },
@@ -723,9 +728,14 @@
     "class": "noun"
   },
   { "german": "spinat", "english": "spinach", "gender": "m", "class": "noun" },
-  { "german": "spinne", "english": "spider", "gender": "f", "class": "noun" },
+  { "german": "spinne", "english": "spider", "gender": "f", "class": "animal" },
   { "german": "sport", "english": "sport", "gender": "m", "class": "noun" },
-  { "german": "sprache", "english": "language", "gender": "f", "class": "noun" },
+  {
+    "german": "sprache",
+    "english": "language",
+    "gender": "f",
+    "class": "noun"
+  },
   {
     "german": "sprechen",
     "english": "to speak",
@@ -1070,5 +1080,234 @@
     "english": "dark red",
     "gender": "",
     "class": "color"
+  },
+  { "german": "01 eins", "english": "one", "gender": "", "class": "num" },
+  { "german": "02 zwei", "english": "two", "gender": "", "class": "num" },
+  { "german": "03 drei", "english": "three", "gender": "", "class": "num" },
+  { "german": "04 vier", "english": "four", "gender": "", "class": "num" },
+  { "german": "05 fünf", "english": "five", "gender": "", "class": "num" },
+  { "german": "06 sechs", "english": "six", "gender": "", "class": "num" },
+  { "german": "07 sieben", "english": "seven", "gender": "", "class": "num" },
+  { "german": "08 acht", "english": "eight", "gender": "", "class": "num" },
+  { "german": "09 neun", "english": "nine", "gender": "", "class": "num" },
+  { "german": "10 zehn", "english": "ten", "gender": "", "class": "num" },
+  { "german": "11 elf", "english": "eleven", "gender": "", "class": "num" },
+  { "german": "12 zwölf", "english": "twelve", "gender": "", "class": "num" },
+  {
+    "german": "13 dreizehn",
+    "english": "thirteen",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "14 vierzehn",
+    "english": "fourteen",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "15 fünfzehn",
+    "english": "fifteen",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "16 sechzehn",
+    "english": "sixteen",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "17 siebzehn",
+    "english": "seventeen",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "18 achtzehn",
+    "english": "eighteen",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "19 neunzehn",
+    "english": "nineteen",
+    "gender": "",
+    "class": "num"
+  },
+  { "german": "20 zwanzig", "english": "twenty", "gender": "", "class": "num" },
+  {
+    "german": "21 einundzwanzig",
+    "english": "twenty-one",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "22 zweiundzwanzig",
+    "english": "twenty-two",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "23 dreiundzwanzig",
+    "english": "twenty-three",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "24 vierundzwanzig",
+    "english": "twenty-four",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "25 fünfundzwanzig",
+    "english": "twenty-five",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "26 sechsundzwanzig",
+    "english": "twenty-six",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "27 siebenundzwanzig",
+    "english": "twenty-seven",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "28 achtundzwanzig",
+    "english": "twenty-eight",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "29 neunundzwanzig",
+    "english": "twenty-nine",
+    "gender": "",
+    "class": "num"
+  },
+  { "german": "30 dreißig", "english": "thirty", "gender": "", "class": "num" },
+  {
+    "german": "31 einunddreißig",
+    "english": "thirty-one",
+    "gender": "",
+    "class": "num"
+  },
+  { "german": "40 vierzig", "english": "fourty", "gender": "", "class": "num" },
+  { "german": "50 fünfzig", "english": "fifty", "gender": "", "class": "num" },
+  { "german": "60 sechzig", "english": "sixty", "gender": "", "class": "num" },
+  {
+    "german": "70 siebzig",
+    "english": "seventy",
+    "gender": "",
+    "class": "num"
+  },
+  { "german": "80 achtzig", "english": "eighty", "gender": "", "class": "num" },
+  { "german": "90 neunzig", "english": "ninety", "gender": "", "class": "num" },
+  {
+    "german": "100 einhundert",
+    "english": "one hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "101 einhundertundeins",
+    "english": "one hundred and one",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "110 einhundertzehn",
+    "english": "one hundred ten",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "111 einhundertelf",
+    "english": "one hundred eleven",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "120 einhundertzwanzig",
+    "english": "one hundred twenty",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "200 zweihundert",
+    "english": "two hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "300 dreihundert",
+    "english": "three hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "400 vierhundert",
+    "english": "four hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "500 fünfhundert",
+    "english": "five hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "600 sechshundert",
+    "english": "six hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "700 siebenhundert",
+    "english": "seven hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "800 achhundert",
+    "english": "eight hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "900 neunhundert",
+    "english": "nine hundred",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "1.000 tausend",
+    "english": "thausand",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "10.000 zehntausend",
+    "english": "ten thausand",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "100.000 hunderttausend",
+    "english": "hundred thausand",
+    "gender": "",
+    "class": "num"
+  },
+  {
+    "german": "1.000.000 eine Million",
+    "english": "one million",
+    "gender": "",
+    "class": "num"
   }
 ]
