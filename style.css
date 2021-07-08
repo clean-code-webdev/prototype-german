@@ -28,31 +28,53 @@ body {
   padding: 2rem 0;
 }
 
+body #nav-icon {
+  font-size: 3rem;
+  font-weight: bolder;
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+@media screen and (min-width: 1050px) {
+  body #nav-icon {
+    display: none;
+  }
+}
+
 body #wrapper {
   min-width: 30rem;
   max-width: 50rem;
+  height: 100vh;
 }
 
 body #wrapper #topics {
+  height: 100vh;
+  width: 30rem;
+  position: fixed;
+  top: 0;
+  left: -30rem;
+  background: #909090;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 0.1rem solid black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 1050px) {
+  body #wrapper #topics {
+    left: 0;
+  }
 }
 
 body #wrapper #topics .topic {
   background: #fff;
+  width: 90%;
   font-size: 1.5rem;
-  border: 0.1rem solid black;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   cursor: pointer;
   margin: 1rem;
 }
@@ -123,7 +145,8 @@ body #wrapper #translation-option {
 }
 
 body #wrapper #counter {
-  font-size: 1.3rem;
+  font-size: 2rem;
+  text-align: center;
   padding: 0 0.5rem 1.5rem;
   border-bottom: 0.1rem solid black;
   margin-bottom: 3rem;
