@@ -1,1313 +1,3502 @@
 [
-  { "german": "abend", "english": "evening", "gender": "m", "class": "noun" },
   {
-    "german": "abhängen",
-    "english": "to depend",
+    "german": "01 eins",
+    "english": "one",
     "gender": "",
-    "class": "verb"
+    "class": "num",
+    "topic": "num"
   },
   {
-    "german": "abschied",
-    "english": "farewell",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "adresse", "english": "address", "gender": "f", "class": "noun" },
-  { "german": "alkohol", "english": "alcohol", "gender": "m", "class": "noun" },
-  { "german": "alt", "english": "old", "gender": "", "class": "adj" },
-  { "german": "alter", "english": "age", "gender": "n", "class": "noun" },
-  { "german": "angebot", "english": "offer", "gender": "n", "class": "noun" },
-  { "german": "apfel", "english": "apple", "gender": "m", "class": "noun" },
-  { "german": "äpfel", "english": "apples", "gender": "p", "class": "noun" },
-  { "german": "arbeiten", "english": "to work", "gender": "", "class": "verb" },
-  {
-    "german": "arbeitszimmer",
-    "english": "study (room)",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "archiv", "english": "archives", "gender": "n", "class": "noun" },
-  { "german": "arzt", "english": "doctor", "gender": "m", "class": "noun" },
-  { "german": "ärztin", "english": "doctor", "gender": "f", "class": "noun" },
-  {
-    "german": "ausbildung",
-    "english": "education",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "auto", "english": "car", "gender": "n", "class": "noun" },
-  { "german": "auto", "english": "car", "gender": "n", "class": "noun" },
-  { "german": "autos", "english": "cars", "gender": "p", "class": "noun" },
-  { "german": "baby", "english": "baby", "gender": "n", "class": "noun" },
-  { "german": "bäckerei", "english": "bakery", "gender": "f", "class": "noun" },
-  { "german": "bad", "english": "bath", "gender": "n", "class": "noun" },
-  {
-    "german": "badewanne",
-    "english": "bath(tub)",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "badzimmer",
-    "english": "bathroom",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "balkon", "english": "balcony", "gender": "m", "class": "noun" },
-  { "german": "ball", "english": "ball", "gender": "m", "class": "noun" },
-  { "german": "banane", "english": "banana", "gender": "f", "class": "noun" },
-  { "german": "becher", "english": "cup", "gender": "m", "class": "noun" },
-  {
-    "german": "begrüßung",
-    "english": "greeting",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "beispiel",
-    "english": "example",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "benutzen", "english": "to use", "gender": "", "class": "verb" },
-  { "german": "bereits", "english": "already", "gender": "", "class": "adv" },
-  {
-    "german": "beruf",
-    "english": "profession",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "bett", "english": "bed", "gender": "n", "class": "noun" },
-  { "german": "bier", "english": "beer", "gender": "n", "class": "noun" },
-  { "german": "bild", "english": "picture", "gender": "n", "class": "noun" },
-  {
-    "german": "biologie",
-    "english": "biology",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "birne", "english": "pear", "gender": "f", "class": "noun" },
-  {
-    "german": "bleistift",
-    "english": "pencil",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "blume", "english": "flower", "gender": "f", "class": "noun" },
-  { "german": "boot", "english": "boat", "gender": "n", "class": "noun" },
-  { "german": "brief", "english": "letter", "gender": "m", "class": "noun" },
-  { "german": "brille", "english": "glasses", "gender": "f", "class": "noun" },
-  { "german": "brot", "english": "bread", "gender": "n", "class": "noun" },
-  {
-    "german": "brötchen",
-    "english": "little bread",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "brote", "english": "breads", "gender": "p", "class": "noun" },
-  { "german": "bruder", "english": "brother", "gender": "m", "class": "noun" },
-  { "german": "brüder", "english": "brothers", "gender": "p", "class": "noun" },
-  { "german": "buch", "english": "book", "gender": "n", "class": "noun" },
-  { "german": "bücher", "english": "books", "gender": "p", "class": "noun" },
-  {
-    "german": "buchstabieren",
-    "english": "to spell",
+    "german": "02 zwei",
+    "english": "two",
     "gender": "",
-    "class": "verb"
+    "class": "num",
+    "topic": "num"
   },
-  { "german": "bus", "english": "bus", "gender": "m", "class": "noun" },
-  { "german": "butter", "english": "butter", "gender": "f", "class": "noun" },
-  { "german": "café", "english": "café", "gender": "n", "class": "noun" },
-  { "german": "cent", "english": "cent", "gender": "m", "class": "noun" },
-  { "german": "cousin", "english": "cousin", "gender": "m", "class": "noun" },
-  { "german": "cousine", "english": "cousin", "gender": "f", "class": "noun" },
-  { "german": "ding", "english": "thing", "gender": "n", "class": "noun" },
-  { "german": "doktor", "english": "doctor", "gender": "m", "class": "noun" },
-  { "german": "doktorin", "english": "doctor", "gender": "f", "class": "noun" },
-  { "german": "dorf", "english": "village", "gender": "n", "class": "noun" },
-  { "german": "dose", "english": "can", "gender": "f", "class": "noun" },
-  { "german": "dusche", "english": "shower", "gender": "f", "class": "noun" },
-  { "german": "ehrlich", "english": "honest", "gender": "", "class": "adj" },
   {
-    "german": "ehrlichkeit",
-    "english": "honesty",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "ei", "english": "egg", "gender": "n", "class": "noun" },
-  { "german": "eier", "english": "eggs", "gender": "p", "class": "noun" },
-  { "german": "eier", "english": "eggs", "gender": "p", "class": "noun" },
-  {
-    "german": "eigentlich",
-    "english": "actually",
+    "german": "03 drei",
+    "english": "three",
     "gender": "",
-    "class": "adv"
-  },
-  { "german": "eigentlich", "english": "actual", "gender": "", "class": "adj" },
-  { "german": "einfach", "english": "easy", "gender": "", "class": "adj" },
-  {
-    "german": "einkaufswagen",
-    "english": "shopping cart",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "eis", "english": "ice", "gender": "n", "class": "noun" },
-  { "german": "eltern", "english": "parents", "gender": "p", "class": "noun" },
-  { "german": "endung", "english": "ending", "gender": "f", "class": "noun" },
-  { "german": "enkel", "english": "grandson", "gender": "m", "class": "noun" },
-  {
-    "german": "enkelin",
-    "english": "granddaughter",
-    "gender": "f",
-    "class": "noun"
+    "class": "num",
+    "topic": "num"
   },
   {
-    "german": "erzieher",
-    "english": "teacher",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "erzieherin",
-    "english": "teacher",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "euro", "english": "euro", "gender": "m", "class": "noun" },
-  {
-    "german": "fahrkarte",
-    "english": "ticket",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "fantastisch",
-    "english": "fantastic",
+    "german": "04 vier",
+    "english": "four",
     "gender": "",
-    "class": "adj"
-  },
-  { "german": "farbe", "english": "colour", "gender": "f", "class": "noun" },
-  { "german": "fenster", "english": "window", "gender": "n", "class": "noun" },
-  {
-    "german": "fernsehen",
-    "english": "television",
-    "gender": "m",
-    "class": "noun"
+    "class": "num",
+    "topic": "num"
   },
   {
-    "german": "film",
-    "english": "movie / film",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "fisch", "english": "fish", "gender": "m", "class": "noun" },
-  { "german": "flasche", "english": "bottle", "gender": "f", "class": "noun" },
-  { "german": "fleisch", "english": "meat", "gender": "n", "class": "noun" },
-  { "german": "fleisch", "english": "meat", "gender": "n", "class": "noun" },
-  {
-    "german": "fleischtheke",
-    "english": "meat counter",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "flur",
-    "english": "hall / corridor",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "foto", "english": "photo", "gender": "n", "class": "noun" },
-  { "german": "foto", "english": "photo", "gender": "n", "class": "noun" },
-  {
-    "german": "fotografieren",
-    "english": "to photograph",
+    "german": "05 fünf",
+    "english": "five",
     "gender": "",
-    "class": "verb"
+    "class": "num",
+    "topic": "num"
   },
   {
-    "german": "fotolabor",
-    "english": "photo lab",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "frage", "english": "question", "gender": "f", "class": "noun" },
-  { "german": "fragen", "english": "to ask", "gender": "", "class": "verb" },
-  { "german": "frau", "english": "woman", "gender": "f", "class": "noun" },
-  {
-    "german": "freiheit",
-    "english": "freedom",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "frühling", "english": "spring", "gender": "m", "class": "noun" },
-  {
-    "german": "fußball",
-    "english": "football",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "geboren",
-    "english": "to be born",
+    "german": "06 sechs",
+    "english": "six",
     "gender": "",
-    "class": "verb"
+    "class": "num",
+    "topic": "num"
   },
   {
-    "german": "gegenteil",
-    "english": "opposite",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "geld", "english": "money", "gender": "n", "class": "noun" },
-  { "german": "geldautomat", "english": "ATM", "gender": "m", "class": "noun" },
-  {
-    "german": "gemüse",
-    "english": "vegetables",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "gepäck", "english": "luggage", "gender": "n", "class": "noun" },
-  {
-    "german": "geschieden",
-    "english": "divorced",
+    "german": "07 sieben",
+    "english": "seven",
     "gender": "",
-    "class": "adj"
+    "class": "num",
+    "topic": "num"
   },
   {
-    "german": "geschirr",
-    "english": "dishes / tableware",
-    "gender": "n",
-    "class": "noun"
-  },
-  {
-    "german": "geschirrspüler",
-    "english": "dish washer",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "gespräch",
-    "english": "dialogue",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "gitarre", "english": "guitar", "gender": "f", "class": "noun" },
-  { "german": "glas", "english": "glass", "gender": "n", "class": "noun" },
-  {
-    "german": "gleich",
-    "english": "like / equal",
+    "german": "08 acht",
+    "english": "eight",
     "gender": "",
-    "class": "adj"
-  },
-  { "german": "gramm", "english": "gram", "gender": "n", "class": "noun" },
-  { "german": "groß", "english": "big", "gender": "", "class": "adj" },
-  {
-    "german": "großmutter",
-    "english": "grandmother",
-    "gender": "f",
-    "class": "noun"
+    "class": "num",
+    "topic": "num"
   },
   {
-    "german": "großvater",
-    "english": "grandfather",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "gut", "english": "good", "gender": "", "class": "adj" },
-  { "german": "haben", "english": "to have", "gender": "", "class": "verb" },
-  {
-    "german": "hackfleisch",
-    "english": "minced meat",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "hahn", "english": "cock / tap", "gender": "m", "class": "noun" },
-  {
-    "german": "hähnchen",
-    "english": "chicken",
-    "gender": "n",
-    "class": "noun"
-  },
-  {
-    "german": "handy",
-    "english": "mobile phone",
-    "gender": "n",
-    "class": "noun"
-  },
-  {
-    "german": "hauptstadt",
-    "english": "capital city",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "haus", "english": "house", "gender": "n", "class": "noun" },
-  { "german": "haus", "english": "house", "gender": "n", "class": "noun" },
-  { "german": "heft", "english": "notebook", "gender": "n", "class": "noun" },
-  {
-    "german": "heißen",
-    "english": "to be called",
+    "german": "09 neun",
+    "english": "nine",
     "gender": "",
-    "class": "verb"
-  },
-  { "german": "herbst", "english": "autumn", "gender": "m", "class": "noun" },
-  { "german": "herd", "english": "oven", "gender": "m", "class": "noun" },
-  { "german": "hotel", "english": "hotel", "gender": "n", "class": "noun" },
-  { "german": "huhn", "english": "chicken", "gender": "n", "class": "noun" },
-  {
-    "german": "hühnchen",
-    "english": "(young) chicken",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "hund", "english": "dog", "gender": "m", "class": "animal" },
-  { "german": "hunger", "english": "hunger", "gender": "m", "class": "noun" },
-  { "german": "idee", "english": "idea", "gender": "f", "class": "noun" },
-  {
-    "german": "ingenieur",
-    "english": "engineer",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "inhaber", "english": "owener", "gender": "m", "class": "noun" },
-  { "german": "jahr", "english": "year", "gender": "n", "class": "noun" },
-  { "german": "kajüte", "english": "cabin", "gender": "f", "class": "noun" },
-  { "german": "kamel", "english": "camel", "gender": "n", "class": "noun" },
-  { "german": "kamera", "english": "camera", "gender": "f", "class": "noun" },
-  {
-    "german": "kartoffel",
-    "english": "potato",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "kellner", "english": "waiter", "gender": "m", "class": "noun" },
-  {
-    "german": "kellnerin",
-    "english": "waiter",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "kilo", "english": "kilo", "gender": "n", "class": "noun" },
-  { "german": "kind", "english": "child", "gender": "n", "class": "noun" },
-  {
-    "german": "kinderzimmer",
-    "english": "child's bedroom",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "kiste", "english": "box", "gender": "f", "class": "noun" },
-  { "german": "kiwi", "english": "kiwi", "gender": "f", "class": "noun" },
-  { "german": "klein", "english": "small", "gender": "", "class": "adj" },
-  { "german": "koch", "english": "cook", "gender": "m", "class": "noun" },
-  {
-    "german": "kocher",
-    "english": "cooker / burner",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "köchin", "english": "cook", "gender": "f", "class": "noun" },
-  { "german": "kommen", "english": "to come", "gender": "", "class": "verb" },
-  { "german": "kontext", "english": "context", "gender": "m", "class": "noun" },
-  {
-    "german": "kraft",
-    "english": "strength / power",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "krankenschwester",
-    "english": "nurse",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "krankenwagen",
-    "english": "ambulance",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "krokodil",
-    "english": "crocodile",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "küche", "english": "kitchen", "gender": "f", "class": "noun" },
-  { "german": "kuchen", "english": "cake", "gender": "m", "class": "noun" },
-  {
-    "german": "kühlschrank",
-    "english": "fridge",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "kuli", "english": "pen", "gender": "m", "class": "noun" },
-  { "german": "kunde", "english": "client", "gender": "m", "class": "noun" },
-  { "german": "kundin", "english": "client", "gender": "f", "class": "noun" },
-  { "german": "kuss", "english": "kiss", "gender": "m", "class": "noun" },
-  { "german": "laden", "english": "shop", "gender": "m", "class": "noun" },
-  { "german": "lampe", "english": "lamp", "gender": "f", "class": "noun" },
-  { "german": "laptop", "english": "laptop", "gender": "m", "class": "noun" },
-  { "german": "lauch", "english": "leek", "gender": "m", "class": "noun" },
-  { "german": "leben", "english": "to live", "gender": "", "class": "verb" },
-  {
-    "german": "lebensstil",
-    "english": "lifestyle",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "lehrer", "english": "teacher", "gender": "m", "class": "noun" },
-  { "german": "lektion", "english": "lesson", "gender": "f", "class": "noun" },
-  { "german": "leute", "english": "people", "gender": "p", "class": "noun" },
-  { "german": "licht", "english": "light", "gender": "n", "class": "noun" },
-  { "german": "lineal", "english": "ruler", "gender": "n", "class": "noun" },
-  { "german": "lüge", "english": "lie", "gender": "f", "class": "noun" },
-  { "german": "luxus", "english": "luxury", "gender": "m", "class": "noun" },
-  { "german": "mann", "english": "man", "gender": "m", "class": "noun" },
-  { "german": "männer", "english": "men", "gender": "p", "class": "noun" },
-  { "german": "markt", "english": "market", "gender": "m", "class": "noun" },
-  {
-    "german": "mathematik",
-    "english": "mathematics",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "matratze",
-    "english": "mattress",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "maus", "english": "mouse", "gender": "f", "class": "noun" },
-  { "german": "mehl", "english": "honey", "gender": "n", "class": "noun" },
-  { "german": "mensch", "english": "person", "gender": "m", "class": "noun" },
-  {
-    "german": "mikrofon",
-    "english": "microphone",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "milch", "english": "milk", "gender": "f", "class": "noun" },
-  {
-    "german": "minaralwasser",
-    "english": "mineral water",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "möbel", "english": "furniture", "gender": "n", "class": "noun" },
-  { "german": "monat", "english": "month", "gender": "m", "class": "noun" },
-  { "german": "morgen", "english": "morning", "gender": "m", "class": "noun" },
-  {
-    "german": "motorrad",
-    "english": "motorbike",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "musik", "english": "music", "gender": "f", "class": "noun" },
-  {
-    "german": "musiker",
-    "english": "musician",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "mutter", "english": "mother", "gender": "f", "class": "noun" },
-  { "german": "mütter", "english": "mothers", "gender": "p", "class": "noun" },
-  { "german": "nacht", "english": "night", "gender": "f", "class": "noun" },
-  { "german": "neffe", "english": "nephew", "gender": "m", "class": "noun" },
-  { "german": "nicht", "english": "not", "gender": "", "class": "adv" },
-  { "german": "nichte", "english": "niece", "gender": "f", "class": "noun" },
-  { "german": "noch", "english": "still", "gender": "", "class": "adv" },
-  { "german": "nummer", "english": "number", "gender": "f", "class": "noun" },
-  { "german": "oma", "english": "grandmother", "gender": "f", "class": "noun" },
-  { "german": "onkel", "english": "uncle", "gender": "m", "class": "noun" },
-  { "german": "opa", "english": "grandfather", "gender": "m", "class": "noun" },
-  { "german": "orange", "english": "orange", "gender": "f", "class": "noun" },
-  { "german": "packung", "english": "packet", "gender": "f", "class": "noun" },
-  { "german": "parfum", "english": "perfume", "gender": "n", "class": "noun" },
-  { "german": "partner", "english": "partner", "gender": "m", "class": "noun" },
-  {
-    "german": "partnerin",
-    "english": "partner",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "pause", "english": "pause", "gender": "f", "class": "noun" },
-  { "german": "pfanne", "english": "pan", "gender": "f", "class": "noun" },
-  {
-    "german": "pfannkuchen",
-    "english": "pancake",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "pfund", "english": "pound", "gender": "n", "class": "noun" },
-  { "german": "photo", "english": "photo", "gender": "n", "class": "noun" },
-  { "german": "pizza", "english": "pizza", "gender": "f", "class": "noun" },
-  {
-    "german": "platz",
-    "english": "place / space",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "plz", "english": "post code", "gender": "f", "class": "noun" },
-  {
-    "german": "polizeiauto",
-    "english": "police car",
-    "gender": "n",
-    "class": "noun"
-  },
-  {
-    "german": "polizist",
-    "english": "policeman",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "polizisten",
-    "english": "policemen",
-    "gender": "p",
-    "class": "noun"
-  },
-  {
-    "german": "polizistin",
-    "english": "policewoman",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "preis", "english": "price", "gender": "m", "class": "noun" },
-  { "german": "probieren", "english": "to try", "gender": "", "class": "verb" },
-  { "german": "radio", "english": "radio", "gender": "n", "class": "noun" },
-  { "german": "rätsel", "english": "riddle", "gender": "n", "class": "noun" },
-  { "german": "rauch", "english": "smoke", "gender": "m", "class": "noun" },
-  { "german": "regal", "english": "shelf", "gender": "n", "class": "noun" },
-  {
-    "german": "reinigung",
-    "english": "cleaning",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "reis", "english": "rice", "gender": "m", "class": "noun" },
-  {
-    "german": "reporter",
-    "english": "reporter",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "reporterin",
-    "english": "reporter",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "rest", "english": "rest", "gender": "m", "class": "noun" },
-  { "german": "rezept", "english": "recipe", "gender": "n", "class": "noun" },
-  { "german": "rolle", "english": "role", "gender": "f", "class": "noun" },
-  {
-    "german": "rollenspiel",
-    "english": "role play",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "saft", "english": "juice", "gender": "m", "class": "noun" },
-  { "german": "säfte", "english": "juice", "gender": "p", "class": "noun" },
-  { "german": "sahne", "english": "cream", "gender": "f", "class": "noun" },
-  { "german": "salz", "english": "salt", "gender": "n", "class": "noun" },
-  { "german": "sänger", "english": "singer", "gender": "m", "class": "noun" },
-  { "german": "sängerin", "english": "singer", "gender": "f", "class": "noun" },
-  {
-    "german": "sänitäter",
-    "english": "first-aid attendant",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "schere", "english": "scissors", "gender": "f", "class": "noun" },
-  { "german": "schicken", "english": "to send", "gender": "", "class": "verb" },
-  {
-    "german": "schlafzimmer",
-    "english": "bedroom",
-    "gender": "n",
-    "class": "noun"
-  },
-  {
-    "german": "schlange",
-    "english": "snake",
-    "gender": "f",
-    "class": "animal"
-  },
-  { "german": "schlecht", "english": "bad", "gender": "", "class": "adj" },
-  { "german": "schmutz", "english": "dirt", "gender": "m", "class": "noun" },
-  { "german": "schön", "english": "beautiful", "gender": "", "class": "adj" },
-  {
-    "german": "schrank",
-    "english": "cupboard",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "schreiben",
-    "english": "to write",
-    "gender": "",
-    "class": "verb"
-  },
-  {
-    "german": "schreibtisch",
-    "english": "desk",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "schule", "english": "school", "gender": "f", "class": "noun" },
-  { "german": "schwach", "english": "weak", "gender": "", "class": "adj" },
-  {
-    "german": "schwager",
-    "english": "brother-in-law",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "schwägerin",
-    "english": "sister-in-law",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "schwer", "english": "difficult", "gender": "", "class": "adj" },
-  {
-    "german": "schwester",
-    "english": "sister",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "schwiegermutter",
-    "english": "mother-in-law",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "schwiegersohn",
-    "english": "son-in-law",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "schwiegertochter",
-    "english": "daughter-in-law",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "schwiegervater",
-    "english": "father-in-law",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "segelboot",
-    "english": "sailing boat",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "sein", "english": "to be", "gender": "", "class": "verb" },
-  { "german": "seite", "english": "page", "gender": "f", "class": "noun" },
-  { "german": "sessel", "english": "armchair", "gender": "m", "class": "noun" },
-  { "german": "sklave", "english": "slave", "gender": "m", "class": "noun" },
-  { "german": "sofa", "english": "sofa", "gender": "n", "class": "noun" },
-  { "german": "sohn", "english": "son", "gender": "m", "class": "noun" },
-  { "german": "söhne", "english": "sons", "gender": "p", "class": "noun" },
-  { "german": "sommer", "english": "summer", "gender": "m", "class": "noun" },
-  {
-    "german": "sonderangebot",
-    "english": "special offer",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "sonne", "english": "sun", "gender": "f", "class": "noun" },
-  { "german": "speck", "english": "fat", "gender": "m", "class": "noun" },
-  { "german": "spielen", "english": "to play", "gender": "", "class": "verb" },
-  { "german": "spieler", "english": "player", "gender": "m", "class": "noun" },
-  {
-    "german": "spielerin",
-    "english": "player",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "spinat", "english": "spinach", "gender": "m", "class": "noun" },
-  { "german": "spinne", "english": "spider", "gender": "f", "class": "animal" },
-  { "german": "sport", "english": "sport", "gender": "m", "class": "noun" },
-  {
-    "german": "sprache",
-    "english": "language",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "sprechen",
-    "english": "to speak",
-    "gender": "",
-    "class": "verb"
-  },
-  { "german": "staat", "english": "state", "gender": "m", "class": "noun" },
-  { "german": "stadt", "english": "city", "gender": "f", "class": "noun" },
-  { "german": "stern", "english": "star", "gender": "m", "class": "noun" },
-  {
-    "german": "stiefmutter",
-    "english": "stepmother",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "stiefsohn",
-    "english": "stepson",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "stieftochter",
-    "english": "stepdaughter",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "stiefvater",
-    "english": "stepfather",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "stift", "english": "pen", "gender": "m", "class": "noun" },
-  { "german": "stil", "english": "style", "gender": "m", "class": "noun" },
-  { "german": "straße", "english": "street", "gender": "f", "class": "noun" },
-  { "german": "student", "english": "student", "gender": "m", "class": "noun" },
-  {
-    "german": "studentin",
-    "english": "student",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "stuhl", "english": "chair", "gender": "m", "class": "noun" },
-  { "german": "stühle", "english": "chairs", "gender": "p", "class": "noun" },
-  {
-    "german": "supermarkt",
-    "english": "supermarket",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "tablet", "english": "tablet", "gender": "n", "class": "noun" },
-  { "german": "tag", "english": "day", "gender": "m", "class": "noun" },
-  { "german": "tante", "english": "aunt", "gender": "f", "class": "noun" },
-  { "german": "tasche", "english": "bag", "gender": "f", "class": "noun" },
-  { "german": "taxi", "english": "taxi", "gender": "n", "class": "noun" },
-  { "german": "tee", "english": "tee", "gender": "m", "class": "noun" },
-  { "german": "telefon", "english": "phone", "gender": "n", "class": "noun" },
-  { "german": "teppich", "english": "carpet", "gender": "m", "class": "noun" },
-  { "german": "tier", "english": "animal", "gender": "n", "class": "noun" },
-  {
-    "german": "tierarzt",
-    "english": "veterinatian",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "tisch", "english": "table", "gender": "m", "class": "noun" },
-  {
-    "german": "tochter",
-    "english": "daughter",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "toilette", "english": "toilet", "gender": "f", "class": "noun" },
-  { "german": "tomate", "english": "tomato", "gender": "f", "class": "noun" },
-  { "german": "tourist", "english": "tourist", "gender": "m", "class": "noun" },
-  { "german": "türkei", "english": "Turkey", "gender": "f", "class": "noun" },
-  { "german": "übung", "english": "exercise", "gender": "f", "class": "noun" },
-  { "german": "uhr", "english": "clock", "gender": "f", "class": "noun" },
-  { "german": "ukraine", "english": "Ukraine", "gender": "f", "class": "noun" },
-  {
-    "german": "unterhaltung",
-    "english": "entertainment",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "vater", "english": "father", "gender": "m", "class": "noun" },
-  {
-    "german": "verkäufer",
-    "english": "salesman",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "verkäuferin",
-    "english": "saleswoman",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "wagen", "english": "car", "gender": "m", "class": "noun" },
-  {
-    "german": "waschbecken",
-    "english": "sink",
-    "gender": "n",
-    "class": "noun"
-  },
-  {
-    "german": "waschmaschine",
-    "english": "washing machine",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "wasser", "english": "water", "gender": "n", "class": "noun" },
-  { "german": "wein", "english": "wine", "gender": "m", "class": "noun" },
-  { "german": "weiter", "english": "further", "gender": "", "class": "adj" },
-  {
-    "german": "werbung",
-    "english": "advertising",
-    "gender": "f",
-    "class": "noun"
-  },
-  {
-    "german": "wiederholen",
-    "english": "to repeat",
-    "gender": "",
-    "class": "verb"
-  },
-  { "german": "winter", "english": "winter", "gender": "m", "class": "noun" },
-  {
-    "german": "wohnen",
-    "english": "to live at",
-    "gender": "",
-    "class": "verb"
-  },
-  {
-    "german": "wohnung",
-    "english": "apartment",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "wort", "english": "word", "gender": "n", "class": "noun" },
-  { "german": "wörter", "english": "words", "gender": "p", "class": "noun" },
-  {
-    "german": "wunderschön",
-    "english": "wonderful",
-    "gender": "",
-    "class": "adj"
-  },
-  { "german": "wurst", "english": "sausage", "gender": "f", "class": "noun" },
-  {
-    "german": "würstchen",
-    "english": "little sausage",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "zahl", "english": "number", "gender": "f", "class": "noun" },
-  { "german": "zahlen", "english": "to count", "gender": "", "class": "verb" },
-  { "german": "zeit", "english": "time", "gender": "f", "class": "noun" },
-  { "german": "zimmer", "english": "room", "gender": "n", "class": "noun" },
-  { "german": "zoo", "english": "zoo", "gender": "m", "class": "noun" },
-  { "german": "zucker", "english": "sugar", "gender": "m", "class": "noun" },
-  {
-    "german": "zufrieden",
-    "english": "satisfied",
-    "gender": "",
-    "class": "adj"
-  },
-  { "german": "zug", "english": "train", "gender": "m", "class": "noun" },
-  { "german": "zwiebel", "english": "onion", "gender": "f", "class": "noun" },
-  { "german": "schwer", "english": "difficult", "gender": "", "class": "adj" },
-  {
-    "german": "sofort",
-    "english": "immediately",
-    "gender": "",
-    "class": "adv"
-  },
-  {
-    "german": "gefallen",
-    "english": "to pease s.b.",
-    "gender": "",
-    "class": "verb"
-  },
-  { "german": "breit", "english": "broad", "gender": "", "class": "adj" },
-  {
-    "german": "verlieben",
-    "english": "to fall in love",
-    "gender": "",
-    "class": "verb"
-  },
-  { "german": "träumen", "english": "to dream", "gender": "", "class": "verb" },
-  { "german": "traum", "english": "dream", "gender": "m", "class": "noun" },
-  { "german": "sagen", "english": "to say", "gender": "", "class": "verb" },
-  { "german": "lachen", "english": "to laught", "gender": "", "class": "verb" },
-  { "german": "leben", "english": "to live", "gender": "", "class": "verb" },
-  { "german": "glücklich", "english": "happy", "gender": "", "class": "adj" },
-  {
-    "german": "flugzeug",
-    "english": "airplane",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "bus", "english": "bus", "gender": "m", "class": "noun" },
-  { "german": "zug", "english": "train", "gender": "m", "class": "noun" },
-  {
-    "german": "verheiratet",
-    "english": "married",
-    "gender": "",
-    "class": "adj"
-  },
-  { "german": "gehen", "english": "to go", "gender": "", "class": "verb" },
-  { "german": "reisen", "english": "to travel", "gender": "", "class": "verb" },
-  { "german": "spieler", "english": "player", "gender": "m", "class": "noun" },
-  { "german": "münze", "english": "coin", "gender": "f", "class": "noun" },
-  { "german": "geld", "english": "money", "gender": "n", "class": "noun" },
-  {
-    "german": "kleingeld",
-    "english": "change (money)",
-    "gender": "n",
-    "class": "noun"
-  },
-  { "german": "kosten", "english": "to cost", "gender": "", "class": "verb" },
-  {
-    "german": "hinzufügen",
-    "english": "to add",
-    "gender": "",
-    "class": "verb"
-  },
-  {
-    "german": "fleiß",
-    "english": "dilligence",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "fleißig", "english": "dilligent", "gender": "", "class": "adj" },
-  { "german": "gleich", "english": "same", "gender": "", "class": "adj" },
-  { "german": "wichtig", "english": "important", "gender": "", "class": "adj" },
-  { "german": "zahl", "english": "number", "gender": "f", "class": "noun" },
-  { "german": "alter", "english": "age", "gender": "n", "class": "noun" },
-  { "german": "ding", "english": "thing", "gender": "n", "class": "noun" },
-  { "german": "lügen", "english": "to lie", "gender": "", "class": "verb" },
-  { "german": "tag", "english": "day", "gender": "m", "class": "noun" },
-  {
-    "german": "staat",
-    "english": "state (government)",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "beruf",
-    "english": "profession",
-    "gender": "m",
-    "class": "noun"
-  },
-  {
-    "german": "verstanden",
-    "english": "to understand",
-    "gender": "",
-    "class": "verb"
-  },
-  { "german": "kuli", "english": "pen", "gender": "m", "class": "noun" },
-  { "german": "schlüssel", "english": "key", "gender": "m", "class": "noun" },
-  {
-    "german": "tabelle",
-    "english": "table (sheet)",
-    "gender": "f",
-    "class": "noun"
-  },
-  { "german": "sonst", "english": "else", "gender": "", "class": "adv" },
-  { "german": "sonder", "english": "without", "gender": "", "class": "prep" },
-  { "german": "finden", "english": "to find", "gender": "", "class": "verb" },
-  { "german": "bringen", "english": "to bring", "gender": "", "class": "verb" },
-  {
-    "german": "tauschen",
-    "english": "to exchange / to swap",
-    "gender": "",
-    "class": "verb"
-  },
-  { "german": "hässlich", "english": "ugly", "gender": "", "class": "adj" },
-  { "german": "gucken", "english": "to look", "gender": "", "class": "verb" },
-  { "german": "teuer", "english": "expensive", "gender": "", "class": "adj" },
-  { "german": "billig", "english": "cheap", "gender": "", "class": "adj" },
-  {
-    "german": "flur",
-    "english": "hall / corridor",
-    "gender": "m",
-    "class": "noun"
-  },
-  { "german": "frisch", "english": "fresh", "gender": "", "class": "adj" },
-  {
-    "german": "ausnutzen",
-    "english": "to exploit",
-    "gender": "",
-    "class": "verb"
-  },
-  { "german": "arm", "english": "poor", "gender": "", "class": "adj" },
-  { "german": "herd", "english": "stove", "gender": "m", "class": "noun" },
-  { "german": "hier", "english": "here", "gender": "", "class": "adv" },
-  { "german": "da", "english": "here", "gender": "", "class": "adv" },
-  { "german": "dort", "english": "there", "gender": "", "class": "adv" },
-  {
-    "german": "draußen",
-    "english": "outside / outdoors",
-    "gender": "",
-    "class": "adv"
-  },
-  { "german": "fast", "english": "almost", "gender": "", "class": "adv" },
-  { "german": "groß", "english": "big", "gender": "", "class": "adj" },
-  { "german": "klein", "english": "small", "gender": "", "class": "adj" },
-  {
-    "german": "hell",
-    "english": "light (color)",
-    "gender": "",
-    "class": "adj"
-  },
-  { "german": "dunkel", "english": "dark", "gender": "", "class": "adj" },
-  { "german": "sauber", "english": "clean", "gender": "", "class": "adj" },
-  { "german": "schmal", "english": "narrow", "gender": "", "class": "adj" },
-  { "german": "hoch", "english": "tall / high", "gender": "", "class": "adj" },
-  { "german": "ehrlich", "english": "honest", "gender": "", "class": "adj" },
-  {
-    "german": "unbedingt",
-    "english": "unconditional",
-    "gender": "",
-    "class": "adj"
-  },
-  { "german": "schwarz", "english": "black", "gender": "", "class": "color" },
-  { "german": "grau", "english": "gray", "gender": "", "class": "color" },
-  { "german": "weiß", "english": "white", "gender": "", "class": "color" },
-  { "german": "grün", "english": "green", "gender": "", "class": "color" },
-  { "german": "braun", "english": "brown", "gender": "", "class": "color" },
-  { "german": "blau", "english": "blue", "gender": "", "class": "color" },
-  { "german": "rot", "english": "red", "gender": "", "class": "color" },
-  { "german": "gelb", "english": "yellow", "gender": "", "class": "color" },
-  {
-    "german": "hellrot",
-    "english": "light red",
-    "gender": "",
-    "class": "color"
-  },
-  {
-    "german": "dunkelrot",
-    "english": "dark red",
-    "gender": "",
-    "class": "color"
-  },
-  { "german": "01 eins", "english": "one", "gender": "", "class": "num" },
-  { "german": "02 zwei", "english": "two", "gender": "", "class": "num" },
-  { "german": "03 drei", "english": "three", "gender": "", "class": "num" },
-  { "german": "04 vier", "english": "four", "gender": "", "class": "num" },
-  { "german": "05 fünf", "english": "five", "gender": "", "class": "num" },
-  { "german": "06 sechs", "english": "six", "gender": "", "class": "num" },
-  { "german": "07 sieben", "english": "seven", "gender": "", "class": "num" },
-  { "german": "08 acht", "english": "eight", "gender": "", "class": "num" },
-  { "german": "09 neun", "english": "nine", "gender": "", "class": "num" },
-  { "german": "10 zehn", "english": "ten", "gender": "", "class": "num" },
-  { "german": "11 elf", "english": "eleven", "gender": "", "class": "num" },
-  { "german": "12 zwölf", "english": "twelve", "gender": "", "class": "num" },
-  {
-    "german": "13 dreizehn",
-    "english": "thirteen",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "14 vierzehn",
-    "english": "fourteen",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "15 fünfzehn",
-    "english": "fifteen",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "16 sechzehn",
-    "english": "sixteen",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "17 siebzehn",
-    "english": "seventeen",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "18 achtzehn",
-    "english": "eighteen",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "19 neunzehn",
-    "english": "nineteen",
-    "gender": "",
-    "class": "num"
-  },
-  { "german": "20 zwanzig", "english": "twenty", "gender": "", "class": "num" },
-  {
-    "german": "21 einundzwanzig",
-    "english": "twenty-one",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "22 zweiundzwanzig",
-    "english": "twenty-two",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "23 dreiundzwanzig",
-    "english": "twenty-three",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "24 vierundzwanzig",
-    "english": "twenty-four",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "25 fünfundzwanzig",
-    "english": "twenty-five",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "26 sechsundzwanzig",
-    "english": "twenty-six",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "27 siebenundzwanzig",
-    "english": "twenty-seven",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "28 achtundzwanzig",
-    "english": "twenty-eight",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "29 neunundzwanzig",
-    "english": "twenty-nine",
-    "gender": "",
-    "class": "num"
-  },
-  { "german": "30 dreißig", "english": "thirty", "gender": "", "class": "num" },
-  {
-    "german": "31 einunddreißig",
-    "english": "thirty-one",
-    "gender": "",
-    "class": "num"
-  },
-  { "german": "40 vierzig", "english": "fourty", "gender": "", "class": "num" },
-  { "german": "50 fünfzig", "english": "fifty", "gender": "", "class": "num" },
-  { "german": "60 sechzig", "english": "sixty", "gender": "", "class": "num" },
-  {
-    "german": "70 siebzig",
-    "english": "seventy",
-    "gender": "",
-    "class": "num"
-  },
-  { "german": "80 achtzig", "english": "eighty", "gender": "", "class": "num" },
-  { "german": "90 neunzig", "english": "ninety", "gender": "", "class": "num" },
-  {
-    "german": "100 einhundert",
-    "english": "one hundred",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "101 einhundertundeins",
-    "english": "one hundred and one",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "110 einhundertzehn",
-    "english": "one hundred ten",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "111 einhundertelf",
-    "english": "one hundred eleven",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "120 einhundertzwanzig",
-    "english": "one hundred twenty",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "200 zweihundert",
-    "english": "two hundred",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "300 dreihundert",
-    "english": "three hundred",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "400 vierhundert",
-    "english": "four hundred",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "500 fünfhundert",
-    "english": "five hundred",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "600 sechshundert",
-    "english": "six hundred",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "700 siebenhundert",
-    "english": "seven hundred",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "800 achhundert",
-    "english": "eight hundred",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "900 neunhundert",
-    "english": "nine hundred",
-    "gender": "",
-    "class": "num"
+    "class": "num",
+    "topic": "num"
   },
   {
     "german": "1.000 tausend",
     "english": "thausand",
     "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "10.000 zehntausend",
-    "english": "ten thausand",
-    "gender": "",
-    "class": "num"
-  },
-  {
-    "german": "100.000 hunderttausend",
-    "english": "hundred thausand",
-    "gender": "",
-    "class": "num"
+    "class": "num",
+    "topic": "num"
   },
   {
     "german": "1.000.000 eine Million",
     "english": "one million",
     "gender": "",
-    "class": "num"
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "10 zehn",
+    "english": "ten",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "10.000 zehntausend",
+    "english": "ten thausand",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "100 einhundert",
+    "english": "one hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "100.000 hunderttausend",
+    "english": "hundred thausand",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "101 einhundertundeins",
+    "english": "one hundred and one",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "11 elf",
+    "english": "eleven",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "110 einhundertzehn",
+    "english": "one hundred ten",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "111 einhundertelf",
+    "english": "one hundred eleven",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "12 zwölf",
+    "english": "twelve",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "120 einhundertzwanzig",
+    "english": "one hundred twenty",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "13 dreizehn",
+    "english": "thirteen",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "14 vierzehn",
+    "english": "fourteen",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "15 fünfzehn",
+    "english": "fifteen",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "16 sechzehn",
+    "english": "sixteen",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "17 siebzehn",
+    "english": "seventeen",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "18 achtzehn",
+    "english": "eighteen",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "19 neunzehn",
+    "english": "nineteen",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "20 zwanzig",
+    "english": "twenty",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "200 zweihundert",
+    "english": "two hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "21 einundzwanzig",
+    "english": "twenty-one",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "22 zweiundzwanzig",
+    "english": "twenty-two",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "23 dreiundzwanzig",
+    "english": "twenty-three",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "24 vierundzwanzig",
+    "english": "twenty-four",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "25 fünfundzwanzig",
+    "english": "twenty-five",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "26 sechsundzwanzig",
+    "english": "twenty-six",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "27 siebenundzwanzig",
+    "english": "twenty-seven",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "28 achtundzwanzig",
+    "english": "twenty-eight",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "29 neunundzwanzig",
+    "english": "twenty-nine",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "30 dreißig",
+    "english": "thirty",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "300 dreihundert",
+    "english": "three hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "31 einunddreißig",
+    "english": "thirty-one",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "40 vierzig",
+    "english": "fourty",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "400 vierhundert",
+    "english": "four hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "50 fünfzig",
+    "english": "fifty",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "500 fünfhundert",
+    "english": "five hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "60 sechzig",
+    "english": "sixty",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "600 sechshundert",
+    "english": "six hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "70 siebzig",
+    "english": "seventy",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "700 siebenhundert",
+    "english": "seven hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "80 achtzig",
+    "english": "eighty",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "800 achhundert",
+    "english": "eight hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "90 neunzig",
+    "english": "ninety",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "900 neunhundert",
+    "english": "nine hundred",
+    "gender": "",
+    "class": "num",
+    "topic": "num"
+  },
+  {
+    "german": "abend",
+    "english": "evening",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "abhängen",
+    "english": "to depend",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "abschied",
+    "english": "farewell",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "adresse",
+    "english": "address",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "essen",
+    "english": "to eat",
+    "gender": "",
+    "class": "verb",
+    "topic": "food"
+  },
+  {
+    "german": "trinken",
+    "english": "to drink",
+    "gender": "",
+    "class": "verb",
+    "topic": "food"
+  },
+  {
+    "german": "alkohol",
+    "english": "alcohol",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "alt",
+    "english": "old",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "alter",
+    "english": "age",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "angebot",
+    "english": "offer",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "apfel",
+    "english": "apple",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "äpfel",
+    "english": "apples",
+    "gender": "p",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "arbeiten",
+    "english": "to work",
+    "gender": "",
+    "class": "verb",
+    "topic": "profession"
+  },
+  {
+    "german": "arbeitszimmer",
+    "english": "study (room)",
+    "gender": "n",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "archiv",
+    "english": "archives",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "arm",
+    "english": "poor",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "arzt",
+    "english": "doctor",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "ärztin",
+    "english": "doctor",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "auge",
+    "english": "eye",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "augenbraue",
+    "english": "eyebrow",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "ausbildung",
+    "english": "education",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "ausnutzen",
+    "english": "to exploit",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "auto",
+    "english": "car",
+    "gender": "n",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "autos",
+    "english": "cars",
+    "gender": "p",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "baby",
+    "english": "baby",
+    "gender": "n",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "bäckerei",
+    "english": "bakery",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "bad",
+    "english": "bath",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "badewanne",
+    "english": "bath(tub)",
+    "gender": "f",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "badzimmer",
+    "english": "bathroom",
+    "gender": "n",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "balkon",
+    "english": "balcony",
+    "gender": "m",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "ball",
+    "english": "ball",
+    "gender": "m",
+    "class": "noun",
+    "topic": "sport"
+  },
+  {
+    "german": "banane",
+    "english": "banana",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "bauch",
+    "english": "belly",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "becher",
+    "english": "cup",
+    "gender": "m",
+    "class": "noun",
+    "topic": "container"
+  },
+  {
+    "german": "begrüßung",
+    "english": "greeting",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "bein",
+    "english": "leg",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "beispiel",
+    "english": "example",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "benutzen",
+    "english": "to use",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "bereits",
+    "english": "already",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "beruf",
+    "english": "profession",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "bett",
+    "english": "bed",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "bier",
+    "english": "beer",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "bild",
+    "english": "picture",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "billig",
+    "english": "cheap",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "biologie",
+    "english": "biology",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "birne",
+    "english": "pear",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "blau",
+    "english": "blue",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "bleistift",
+    "english": "pencil",
+    "gender": "m",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "blume",
+    "english": "flower",
+    "gender": "f",
+    "class": "noun",
+    "topic": "plant"
+  },
+  {
+    "german": "blut",
+    "english": "blood",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "boot",
+    "english": "boat",
+    "gender": "n",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "braun",
+    "english": "brown",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "breit",
+    "english": "broad",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "brief",
+    "english": "letter",
+    "gender": "m",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "brille",
+    "english": "glasses",
+    "gender": "f",
+    "class": "noun",
+    "topic": "accessories"
+  },
+  {
+    "german": "bringen",
+    "english": "to bring",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "brot",
+    "english": "bread",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "brötchen",
+    "english": "little bread",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "brote",
+    "english": "breads",
+    "gender": "p",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "bruder",
+    "english": "brother",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "brüder",
+    "english": "brothers",
+    "gender": "p",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "brust",
+    "english": "chest",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "buch",
+    "english": "book",
+    "gender": "n",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "bücher",
+    "english": "books",
+    "gender": "p",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "buchstabieren",
+    "english": "to spell",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "bus",
+    "english": "bus",
+    "gender": "m",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "butter",
+    "english": "butter",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "café",
+    "english": "café",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "cent",
+    "english": "cent",
+    "gender": "m",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "cousin",
+    "english": "cousin",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "cousine",
+    "english": "cousin",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "da",
+    "english": "here",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "ding",
+    "english": "thing",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "doktor",
+    "english": "doctor",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "doktorin",
+    "english": "doctor",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "dorf",
+    "english": "village",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "dort",
+    "english": "there",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "dose",
+    "english": "can",
+    "gender": "f",
+    "class": "noun",
+    "topic": "container"
+  },
+  {
+    "german": "draußen",
+    "english": "outside / outdoors",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "dunkel",
+    "english": "dark",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "dunkelrot",
+    "english": "dark red",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "dusche",
+    "english": "shower",
+    "gender": "f",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "ehrlich",
+    "english": "honest",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "ehrlichkeit",
+    "english": "honesty",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "ei",
+    "english": "egg",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "eier",
+    "english": "eggs",
+    "gender": "p",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "eigentlich",
+    "english": "actually",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "einfach",
+    "english": "easy",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "einkaufswagen",
+    "english": "shopping cart",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "eis",
+    "english": "ice",
+    "gender": "n",
+    "class": "noun",
+    "topic": "element"
+  },
+  {
+    "german": "ellbogen",
+    "english": "elbow",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "eltern",
+    "english": "parents",
+    "gender": "p",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "endung",
+    "english": "ending",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "enkel",
+    "english": "grandson",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "enkelin",
+    "english": "granddaughter",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "erzieher",
+    "english": "teacher",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "erzieherin",
+    "english": "teacher",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "euro",
+    "english": "euro",
+    "gender": "m",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "fahrkarte",
+    "english": "ticket",
+    "gender": "f",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "fahren",
+    "english": "to drive",
+    "gender": "",
+    "class": "verb",
+    "topic": "transportation"
+  },
+  {
+    "german": "fantastisch",
+    "english": "fantastic",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "farbe",
+    "english": "colour",
+    "gender": "f",
+    "class": "noun",
+    "topic": "color"
+  },
+  {
+    "german": "fast",
+    "english": "almost",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "fenster",
+    "english": "window",
+    "gender": "n",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "fernsehen",
+    "english": "television",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "ferse",
+    "english": "heel",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "film",
+    "english": "movie / film",
+    "gender": "m",
+    "class": "noun",
+    "topic": "entertainment"
+  },
+  {
+    "german": "finden",
+    "english": "to find",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "finger",
+    "english": "finger",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "fisch",
+    "english": "fish",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "flasche",
+    "english": "bottle",
+    "gender": "f",
+    "class": "noun",
+    "topic": "container"
+  },
+  {
+    "german": "fleisch",
+    "english": "meat",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "fleischtheke",
+    "english": "meat counter",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "fleiß",
+    "english": "dilligence",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "fleißig",
+    "english": "dilligent",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "flügel",
+    "english": "wing",
+    "gender": "m",
+    "class": "verb",
+    "topic": "animal"
+  },
+  {
+    "german": "flugzeug",
+    "english": "airplane",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "flur",
+    "english": "hall / corridor",
+    "gender": "m",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "foto",
+    "english": "photo",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "fotografieren",
+    "english": "to photograph",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "fotolabor",
+    "english": "photo lab",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "frage",
+    "english": "question",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "fragen",
+    "english": "to ask",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "frau",
+    "english": "woman",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "freiheit",
+    "english": "freedom",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "frisch",
+    "english": "fresh",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "frühling",
+    "english": "spring",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "fuß",
+    "english": "foot",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "fußball",
+    "english": "football",
+    "gender": "m",
+    "class": "noun",
+    "topic": "sport"
+  },
+  {
+    "german": "geboren",
+    "english": "to be born",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "gefallen",
+    "english": "to pease s.b.",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "gegenteil",
+    "english": "opposite",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "gehen",
+    "english": "to go",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "gelb",
+    "english": "yellow",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "geld",
+    "english": "money",
+    "gender": "n",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "geldautomat",
+    "english": "ATM",
+    "gender": "m",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "gelenk",
+    "english": "joint",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "gemüse",
+    "english": "vegetables",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "gepäck",
+    "english": "luggage",
+    "gender": "n",
+    "class": "noun",
+    "topic": "container"
+  },
+  {
+    "german": "geschieden",
+    "english": "divorced",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "geschirr",
+    "english": "dishes / tableware",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "geschirrspüler",
+    "english": "dish washer",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "gesicht",
+    "english": "face",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "gespräch",
+    "english": "dialogue",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "gitarre",
+    "english": "guitar",
+    "gender": "f",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "glas",
+    "english": "glass",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "gleich",
+    "english": "like / equal",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "glücklich",
+    "english": "happy",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "gramm",
+    "english": "gram",
+    "gender": "n",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "grau",
+    "english": "gray",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "groß",
+    "english": "big",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "großmutter",
+    "english": "grandmother",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "großvater",
+    "english": "grandfather",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "grün",
+    "english": "green",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "gucken",
+    "english": "to look",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "gut",
+    "english": "good",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "haar",
+    "english": "hair",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "haben",
+    "english": "to have",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "hackfleisch",
+    "english": "minced meat",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "hahn",
+    "english": "cock",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "hahn",
+    "english": "tap",
+    "gender": "m",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "hähnchen",
+    "english": "chicken",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "hals",
+    "english": "neck",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "hand",
+    "english": "hand",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "handy",
+    "english": "mobile phone",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "hässlich",
+    "english": "ugly",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "hauptstadt",
+    "english": "capital city",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "haus",
+    "english": "house",
+    "gender": "n",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "haut",
+    "english": "skin",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "heft",
+    "english": "notebook",
+    "gender": "n",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "heißen",
+    "english": "to be called",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "hell",
+    "english": "light (color)",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "hellrot",
+    "english": "light red",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "herbst",
+    "english": "autumn",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "herd",
+    "english": "oven",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "herz",
+    "english": "heart",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "hier",
+    "english": "here",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "hinzufügen",
+    "english": "to add",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "hoch",
+    "english": "tall / high",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "hotel",
+    "english": "hotel",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "huhn",
+    "english": "chicken",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "hühnchen",
+    "english": "(young) chicken",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "hund",
+    "english": "dog",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "hunger",
+    "english": "hunger",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "idee",
+    "english": "idea",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "ingenieur",
+    "english": "engineer",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "inhaber",
+    "english": "owener",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "jahr",
+    "english": "year",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "kajüte",
+    "english": "cabin",
+    "gender": "f",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "kamel",
+    "english": "camel",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "kamera",
+    "english": "camera",
+    "gender": "f",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "kartoffel",
+    "english": "potato",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "kehle",
+    "english": "throat",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "kellner",
+    "english": "waiter",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "kellnerin",
+    "english": "waiter",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "kilo",
+    "english": "kilo",
+    "gender": "n",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "kind",
+    "english": "child",
+    "gender": "n",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "kinderzimmer",
+    "english": "child's bedroom",
+    "gender": "n",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "kiste",
+    "english": "box",
+    "gender": "f",
+    "class": "noun",
+    "topic": "container"
+  },
+  {
+    "german": "kiwi",
+    "english": "kiwi",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "klein",
+    "english": "small",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "kleingeld",
+    "english": "change (money)",
+    "gender": "n",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "knie",
+    "english": "knee",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "Knöchel",
+    "english": "ankle",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "knochen",
+    "english": "bone",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "koch",
+    "english": "cook",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "kocher",
+    "english": "cooker / burner",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "köchin",
+    "english": "cook",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "kommen",
+    "english": "to come",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "kontext",
+    "english": "context",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "kopf",
+    "english": "head",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "kosten",
+    "english": "to cost",
+    "gender": "",
+    "class": "verb",
+    "topic": "monetary"
+  },
+  {
+    "german": "kraft",
+    "english": "strength / power",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "krankenschwester",
+    "english": "nurse",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "krankenwagen",
+    "english": "ambulance",
+    "gender": "m",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "krokodil",
+    "english": "crocodile",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "küche",
+    "english": "kitchen",
+    "gender": "f",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "kuchen",
+    "english": "cake",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "kühlschrank",
+    "english": "fridge",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "kuli",
+    "english": "pen",
+    "gender": "m",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "kunde",
+    "english": "client",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "kundin",
+    "english": "client",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "kuss",
+    "english": "kiss",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "lachen",
+    "english": "to laught",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "laden",
+    "english": "shop",
+    "gender": "m",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "lampe",
+    "english": "lamp",
+    "gender": "f",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "laptop",
+    "english": "laptop",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "lauch",
+    "english": "leek",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "leben",
+    "english": "to live",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "lebensstil",
+    "english": "lifestyle",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "leber",
+    "english": "liver",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "lehrer",
+    "english": "teacher",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "lektion",
+    "english": "lesson",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "leute",
+    "english": "people",
+    "gender": "p",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "licht",
+    "english": "light",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "lineal",
+    "english": "ruler",
+    "gender": "n",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "lüge",
+    "english": "lie",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "lügen",
+    "english": "to lie",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "lunge",
+    "english": "lung",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "luxus",
+    "english": "luxury",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "magen",
+    "english": "stomach",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "mann",
+    "english": "man",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "männer",
+    "english": "men",
+    "gender": "p",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "markt",
+    "english": "market",
+    "gender": "m",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "mathematik",
+    "english": "mathematics",
+    "gender": "f",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "matratze",
+    "english": "mattress",
+    "gender": "f",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "maus",
+    "english": "mouse",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "mehl",
+    "english": "honey",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "mensch",
+    "english": "person",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "mikrofon",
+    "english": "microphone",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "milch",
+    "english": "milk",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "minaralwasser",
+    "english": "mineral water",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "möbel",
+    "english": "furniture",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "monat",
+    "english": "month",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "morgen",
+    "english": "morning",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "motorrad",
+    "english": "motorbike",
+    "gender": "n",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "mund",
+    "english": "mouth",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "münze",
+    "english": "coin",
+    "gender": "f",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "musik",
+    "english": "music",
+    "gender": "f",
+    "class": "noun",
+    "topic": "entertainment"
+  },
+  {
+    "german": "musiker",
+    "english": "musician",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "muskel",
+    "english": "muscle",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "mutter",
+    "english": "mother",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "mütter",
+    "english": "mothers",
+    "gender": "p",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "nacht",
+    "english": "night",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "nagel",
+    "english": "nail",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "nase",
+    "english": "nose",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "neffe",
+    "english": "nephew",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "nerv",
+    "english": "nerve",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "nicht",
+    "english": "not",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "nichte",
+    "english": "niece",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "noch",
+    "english": "still",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "nummer",
+    "english": "number",
+    "gender": "f",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "ohr",
+    "english": "ear",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "oma",
+    "english": "grandmother",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "onkel",
+    "english": "uncle",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "opa",
+    "english": "grandfather",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "orange",
+    "english": "orange",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "packung",
+    "english": "packet",
+    "gender": "f",
+    "class": "noun",
+    "topic": "container"
+  },
+  {
+    "german": "parfum",
+    "english": "perfume",
+    "gender": "n",
+    "class": "noun",
+    "topic": "accessories"
+  },
+  {
+    "german": "partner",
+    "english": "partner",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "partnerin",
+    "english": "partner",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "pause",
+    "english": "pause",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "pfanne",
+    "english": "pan",
+    "gender": "f",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "pfannkuchen",
+    "english": "pancake",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "pfund",
+    "english": "pound",
+    "gender": "n",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "photo",
+    "english": "photo",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "pizza",
+    "english": "pizza",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "platz",
+    "english": "place / space",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "plz",
+    "english": "post code",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "polizeiauto",
+    "english": "police car",
+    "gender": "n",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "polizist",
+    "english": "policeman",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "polizisten",
+    "english": "policemen",
+    "gender": "p",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "polizistin",
+    "english": "policewoman",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "preis",
+    "english": "price",
+    "gender": "m",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "probieren",
+    "english": "to try",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "radio",
+    "english": "radio",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "rätsel",
+    "english": "riddle",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "rauch",
+    "english": "smoke",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "regal",
+    "english": "shelf",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "reinigung",
+    "english": "cleaning",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "reis",
+    "english": "rice",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "reisen",
+    "english": "to travel",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "reporter",
+    "english": "reporter",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "reporterin",
+    "english": "reporter",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "rest",
+    "english": "rest",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "rezept",
+    "english": "recipe",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "rolle",
+    "english": "role",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "rollenspiel",
+    "english": "role play",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "rot",
+    "english": "red",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "rücken",
+    "english": "back",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "saft",
+    "english": "juice",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "säfte",
+    "english": "juice",
+    "gender": "p",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "sagen",
+    "english": "to say",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "sahne",
+    "english": "cream",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "salz",
+    "english": "salt",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "sänger",
+    "english": "singer",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "sängerin",
+    "english": "singer",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "sänitäter",
+    "english": "first-aid attendant",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "sauber",
+    "english": "clean",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "schenkel",
+    "english": "thigh",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "schere",
+    "english": "scissors",
+    "gender": "f",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "schicken",
+    "english": "to send",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "schienbein",
+    "english": "shin",
+    "gender": "n",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "schlafzimmer",
+    "english": "bedroom",
+    "gender": "n",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "schlange",
+    "english": "snake",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "schlecht",
+    "english": "bad",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "schlüssel",
+    "english": "key",
+    "gender": "m",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "schmal",
+    "english": "narrow",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "schmutz",
+    "english": "dirt",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "schön",
+    "english": "beautiful",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "schrank",
+    "english": "cupboard",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "schreiben",
+    "english": "to write",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "schreibtisch",
+    "english": "desk",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "schule",
+    "english": "school",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "schulter",
+    "english": "shoulder",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "schwach",
+    "english": "weak",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "schwager",
+    "english": "brother-in-law",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "schwägerin",
+    "english": "sister-in-law",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "schwarz",
+    "english": "black",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "schwer",
+    "english": "difficult",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "schwester",
+    "english": "sister",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "schwiegermutter",
+    "english": "mother-in-law",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "schwiegersohn",
+    "english": "son-in-law",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "schwiegertochter",
+    "english": "daughter-in-law",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "schwiegervater",
+    "english": "father-in-law",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "segelboot",
+    "english": "sailing boat",
+    "gender": "n",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "sein",
+    "english": "to be",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "seite",
+    "english": "page",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "sessel",
+    "english": "armchair",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "sklave",
+    "english": "slave",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "sofa",
+    "english": "sofa",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "sofort",
+    "english": "immediately",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "sohn",
+    "english": "son",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "söhne",
+    "english": "sons",
+    "gender": "p",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "sommer",
+    "english": "summer",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "sonder",
+    "english": "without",
+    "gender": "",
+    "class": "prep",
+    "topic": ""
+  },
+  {
+    "german": "sonderangebot",
+    "english": "special offer",
+    "gender": "n",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "sonne",
+    "english": "sun",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "sonst",
+    "english": "else",
+    "gender": "",
+    "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "speck",
+    "english": "fat",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "spielen",
+    "english": "to play",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "spieler",
+    "english": "player",
+    "gender": "m",
+    "class": "noun",
+    "topic": "sport"
+  },
+  {
+    "german": "spielen",
+    "english": "to play",
+    "gender": "",
+    "class": "verb",
+    "topic": "sport"
+  },
+  {
+    "german": "spielerin",
+    "english": "player",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "spinat",
+    "english": "spinach",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "spinne",
+    "english": "spider",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "sport",
+    "english": "sport",
+    "gender": "m",
+    "class": "noun",
+    "topic": "sport"
+  },
+  {
+    "german": "sprache",
+    "english": "language",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "sprechen",
+    "english": "to speak",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "staat",
+    "english": "state",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "stadt",
+    "english": "city",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "stern",
+    "english": "star",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "stiefmutter",
+    "english": "stepmother",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "stiefsohn",
+    "english": "stepson",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "stieftochter",
+    "english": "stepdaughter",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "stiefvater",
+    "english": "stepfather",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "stift",
+    "english": "pen",
+    "gender": "m",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "stil",
+    "english": "style",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "straße",
+    "english": "street",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "student",
+    "english": "student",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "studentin",
+    "english": "student",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "stuhl",
+    "english": "chair",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "stühle",
+    "english": "chairs",
+    "gender": "p",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "supermarkt",
+    "english": "supermarket",
+    "gender": "m",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "tabelle",
+    "english": "table (sheet)",
+    "gender": "f",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "tablet",
+    "english": "tablet",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "tag",
+    "english": "day",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "taille",
+    "english": "waist",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "tante",
+    "english": "aunt",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "tasche",
+    "english": "bag",
+    "gender": "f",
+    "class": "noun",
+    "topic": "container"
+  },
+  {
+    "german": "tauschen",
+    "english": "to exchange / to swap",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "taxi",
+    "english": "taxi",
+    "gender": "n",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "tee",
+    "english": "tee",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "telefon",
+    "english": "phone",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "teppich",
+    "english": "carpet",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "teuer",
+    "english": "expensive",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "tier",
+    "english": "animal",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "tierarzt",
+    "english": "veterinatian",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "tisch",
+    "english": "table",
+    "gender": "m",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "tochter",
+    "english": "daughter",
+    "gender": "f",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "toilette",
+    "english": "toilet",
+    "gender": "f",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "tomate",
+    "english": "tomato",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "tourist",
+    "english": "tourist",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "traum",
+    "english": "dream",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "träumen",
+    "english": "to dream",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "türkei",
+    "english": "Turkey",
+    "gender": "f",
+    "class": "noun",
+    "topic": "country"
+  },
+  {
+    "german": "übung",
+    "english": "exercise",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "uhr",
+    "english": "clock",
+    "gender": "f",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "ukraine",
+    "english": "Ukraine",
+    "gender": "f",
+    "class": "noun",
+    "topic": "country"
+  },
+  {
+    "german": "unbedingt",
+    "english": "unconditional",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "unterhaltung",
+    "english": "entertainment",
+    "gender": "f",
+    "class": "noun",
+    "topic": "entertainment"
+  },
+  {
+    "german": "vater",
+    "english": "father",
+    "gender": "m",
+    "class": "noun",
+    "topic": "family"
+  },
+  {
+    "german": "verheiratet",
+    "english": "married",
+    "gender": "",
+    "class": "adj",
+    "topic": "family"
+  },
+  {
+    "german": "verkäufer",
+    "english": "salesman",
+    "gender": "m",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "verkäuferin",
+    "english": "saleswoman",
+    "gender": "f",
+    "class": "noun",
+    "topic": "profession"
+  },
+  {
+    "german": "verlieben",
+    "english": "to fall in love",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "verstanden",
+    "english": "to understand",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "wagen",
+    "english": "car",
+    "gender": "m",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "waschbecken",
+    "english": "sink",
+    "gender": "n",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "waschmaschine",
+    "english": "washing machine",
+    "gender": "f",
+    "class": "noun",
+    "topic": "furniture"
+  },
+  {
+    "german": "wasser",
+    "english": "water",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "wein",
+    "english": "wine",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "weiß",
+    "english": "white",
+    "gender": "",
+    "class": "adj",
+    "topic": "color"
+  },
+  {
+    "german": "weiter",
+    "english": "further",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "werbung",
+    "english": "advertising",
+    "gender": "f",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "wichtig",
+    "english": "important",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "wiederholen",
+    "english": "to repeat",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "winter",
+    "english": "winter",
+    "gender": "m",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "wohnen",
+    "english": "to live at",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "wohnung",
+    "english": "apartment",
+    "gender": "f",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "wort",
+    "english": "word",
+    "gender": "n",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "wörter",
+    "english": "words",
+    "gender": "p",
+    "class": "noun",
+    "topic": "office"
+  },
+  {
+    "german": "wunderschön",
+    "english": "wonderful",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "wurst",
+    "english": "sausage",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "würstchen",
+    "english": "little sausage",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "zahl",
+    "english": "number",
+    "gender": "f",
+    "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "zahlen",
+    "english": "to count",
+    "gender": "",
+    "class": "verb",
+    "topic": "monetary"
+  },
+  {
+    "german": "zeh",
+    "english": "toe",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "zeit",
+    "english": "time",
+    "gender": "f",
+    "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "zimmer",
+    "english": "room",
+    "gender": "n",
+    "class": "noun",
+    "topic": "house"
+  },
+  {
+    "german": "zoo",
+    "english": "zoo",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "zucker",
+    "english": "sugar",
+    "gender": "m",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "zufrieden",
+    "english": "satisfied",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "zug",
+    "english": "train",
+    "gender": "m",
+    "class": "noun",
+    "topic": "transportation"
+  },
+  {
+    "german": "zwiebel",
+    "english": "onion",
+    "gender": "f",
+    "class": "noun",
+    "topic": "food"
+  },
+  {
+    "german": "feuer",
+    "english": "fire",
+    "gender": "n",
+    "class": "noun",
+    "topic": "element"
   }
 ]

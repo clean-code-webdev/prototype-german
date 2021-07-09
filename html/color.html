@@ -14,11 +14,7 @@
     <div id="nav-icon">✤</div>
     
     <div id="wrapper">
-      <div id="topics">
-        <a href="../index.html"> <button class="topic">home</button></a>
-        <a href="./article.html"> <button class="topic">article</button></a>
-        <a href="./kein.html"> <button class="topic">kein / keine</button></a>
-      </div>
+      <div id="topics"></div>
 
       <div id="counter"></div>
 
@@ -43,7 +39,7 @@
         menu.styleSelectedUrl();
 
         words.forEach(word => {
-          if(word.class !== 'color') return;
+          if(word.topic !== 'color') return;
           
           counter++
 
@@ -52,7 +48,7 @@
           vocabulary.innerHTML += newWord;
         })
 
-        counterElement.innerHTML = counter + ' adverbs'
+        counterElement.innerHTML = 'colors ( ' + counter + ' )'
 
         const nav = new Nav();
         nav.open();
