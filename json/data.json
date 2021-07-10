@@ -70,7 +70,7 @@
     "topic": "num"
   },
   {
-    "german": "1.000.000 eine Million",
+    "german": "1.000.000 eine million",
     "english": "one million",
     "gender": "",
     "class": "num",
@@ -382,11 +382,18 @@
     "english": "evening",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "time"
   },
   {
     "german": "abhängen",
     "english": "to depend",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "abholen",
+    "english": "to fetch",
     "gender": "",
     "class": "verb",
     "topic": ""
@@ -403,21 +410,14 @@
     "english": "address",
     "gender": "f",
     "class": "noun",
-    "topic": ""
+    "topic": "house"
   },
   {
-    "german": "essen",
-    "english": "to eat",
-    "gender": "",
-    "class": "verb",
-    "topic": "food"
-  },
-  {
-    "german": "trinken",
-    "english": "to drink",
-    "gender": "",
-    "class": "verb",
-    "topic": "food"
+    "german": "affe",
+    "english": "monkey",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
   },
   {
     "german": "alkohol",
@@ -441,10 +441,24 @@
     "topic": ""
   },
   {
+    "german": "analysieren",
+    "english": "to analyze",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "angebot",
     "english": "offer",
     "gender": "n",
     "class": "noun",
+    "topic": "monetary"
+  },
+  {
+    "german": "ankommen",
+    "english": "to arrive",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -452,14 +466,14 @@
     "english": "apple",
     "gender": "m",
     "class": "noun",
-    "topic": "food"
+    "topic": "fruit"
   },
   {
     "german": "äpfel",
     "english": "apples",
     "gender": "p",
     "class": "noun",
-    "topic": "food"
+    "topic": "fruit"
   },
   {
     "german": "arbeiten",
@@ -480,7 +494,7 @@
     "english": "archives",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "office"
   },
   {
     "german": "arm",
@@ -504,17 +518,31 @@
     "topic": "profession"
   },
   {
+    "german": "aufgeben",
+    "english": "to give up",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "aufwachen",
+    "english": "to wake up",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "auge",
     "english": "eye",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
     "german": "augenbraue",
     "english": "eyebrow",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -527,6 +555,20 @@
   {
     "german": "ausnutzen",
     "english": "to exploit",
+    "gender": "",
+    "class": "verb",
+    "topic": "profession"
+  },
+  {
+    "german": "ausradieren",
+    "english": "to erase",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "aussprechen",
+    "english": "to pronounce",
     "gender": "",
     "class": "verb",
     "topic": ""
@@ -564,7 +606,7 @@
     "english": "bath",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "house"
   },
   {
     "german": "badewanne",
@@ -605,8 +647,15 @@
     "german": "bauch",
     "english": "belly",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
+  },
+  {
+    "german": "bauen",
+    "english": "to build",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "becher",
@@ -614,6 +663,20 @@
     "gender": "m",
     "class": "noun",
     "topic": "container"
+  },
+  {
+    "german": "bedeuten",
+    "english": "to mean (= signify)",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "begraben",
+    "english": "to bury",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "begrüßung",
@@ -626,7 +689,7 @@
     "german": "bein",
     "english": "leg",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -658,6 +721,20 @@
     "topic": "profession"
   },
   {
+    "german": "besuchen",
+    "english": "to visit",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "beten",
+    "english": "to pray",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "bett",
     "english": "bed",
     "gender": "n",
@@ -676,21 +753,21 @@
     "english": "picture",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "furniture"
   },
   {
     "german": "billig",
     "english": "cheap",
     "gender": "",
     "class": "adj",
-    "topic": ""
+    "topic": "monetary"
   },
   {
     "german": "biologie",
     "english": "biology",
     "gender": "f",
     "class": "noun",
-    "topic": ""
+    "topic": "anatomy"
   },
   {
     "german": "birne",
@@ -698,6 +775,13 @@
     "gender": "f",
     "class": "noun",
     "topic": "food"
+  },
+  {
+    "german": "bitten",
+    "english": "to ask (favor)",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "blau",
@@ -724,7 +808,14 @@
     "german": "blut",
     "english": "blood",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
+    "topic": "anatomy"
+  },
+  {
+    "german": "bluten",
+    "english": "to bleed",
+    "gender": "",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -733,6 +824,13 @@
     "gender": "n",
     "class": "noun",
     "topic": "transportation"
+  },
+  {
+    "german": "brauchen",
+    "english": "to need",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "braun",
@@ -808,7 +906,7 @@
     "german": "brust",
     "english": "chest",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -830,7 +928,7 @@
     "english": "to spell",
     "gender": "",
     "class": "verb",
-    "topic": ""
+    "topic": "office"
   },
   {
     "german": "bus",
@@ -882,11 +980,18 @@
     "topic": ""
   },
   {
+    "german": "denken",
+    "english": "to think",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "ding",
     "english": "thing",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "container"
   },
   {
     "german": "doktor",
@@ -987,6 +1092,13 @@
     "topic": ""
   },
   {
+    "german": "eine Predigt halten",
+    "english": "to preach",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "einfach",
     "english": "easy",
     "gender": "",
@@ -1001,6 +1113,20 @@
     "topic": ""
   },
   {
+    "german": "einladen",
+    "english": "to invite",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "einschlafen",
+    "english": "to fall asleep",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "eis",
     "english": "ice",
     "gender": "n",
@@ -1011,7 +1137,7 @@
     "german": "ellbogen",
     "english": "elbow",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1043,6 +1169,41 @@
     "topic": "family"
   },
   {
+    "german": "ente",
+    "english": "duck",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "erklären",
+    "english": "to explain",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "ermüden",
+    "english": "to get tired",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "ertränken",
+    "english": "to drown",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "erzählen",
+    "english": "to tell",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "erzieher",
     "english": "teacher",
     "gender": "m",
@@ -1057,6 +1218,13 @@
     "topic": "profession"
   },
   {
+    "german": "essen",
+    "english": "to eat",
+    "gender": "",
+    "class": "verb",
+    "topic": "food"
+  },
+  {
     "german": "euro",
     "english": "euro",
     "gender": "m",
@@ -1068,13 +1236,6 @@
     "english": "ticket",
     "gender": "f",
     "class": "noun",
-    "topic": "transportation"
-  },
-  {
-    "german": "fahren",
-    "english": "to drive",
-    "gender": "",
-    "class": "verb",
     "topic": "transportation"
   },
   {
@@ -1116,8 +1277,15 @@
     "german": "ferse",
     "english": "heel",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
+  },
+  {
+    "german": "feuer",
+    "english": "fire",
+    "gender": "n",
+    "class": "noun",
+    "topic": "food"
   },
   {
     "german": "film",
@@ -1137,7 +1305,7 @@
     "german": "finger",
     "english": "finger",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1183,6 +1351,34 @@
     "topic": ""
   },
   {
+    "german": "fliege",
+    "english": "fly",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "fliegen",
+    "english": "to fly",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "floh",
+    "english": "flea",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "fluchen",
+    "english": "to swear (use bad words)",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "flügel",
     "english": "wing",
     "gender": "m",
@@ -1194,7 +1390,7 @@
     "english": "airplane",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "transportation"
   },
   {
     "german": "flur",
@@ -1204,11 +1400,18 @@
     "topic": "house"
   },
   {
+    "german": "forschen",
+    "english": "to research",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "foto",
     "english": "photo",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "furniture"
   },
   {
     "german": "fotografieren",
@@ -1233,7 +1436,7 @@
   },
   {
     "german": "fragen",
-    "english": "to ask",
+    "english": "to ask (question)",
     "gender": "",
     "class": "verb",
     "topic": ""
@@ -1264,13 +1467,13 @@
     "english": "spring",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "nature"
   },
   {
     "german": "fuß",
     "english": "foot",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1285,7 +1488,7 @@
     "english": "to be born",
     "gender": "",
     "class": "verb",
-    "topic": ""
+    "topic": "family"
   },
   {
     "german": "gefallen",
@@ -1324,7 +1527,7 @@
   },
   {
     "german": "geldautomat",
-    "english": "ATM",
+    "english": "atm",
     "gender": "m",
     "class": "noun",
     "topic": "monetary"
@@ -1333,7 +1536,7 @@
     "german": "gelenk",
     "english": "joint",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1355,7 +1558,7 @@
     "english": "divorced",
     "gender": "",
     "class": "adj",
-    "topic": ""
+    "topic": "family"
   },
   {
     "german": "geschirr",
@@ -1375,7 +1578,7 @@
     "german": "gesicht",
     "english": "face",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1383,6 +1586,13 @@
     "english": "dialogue",
     "gender": "n",
     "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "gewinnen",
+    "english": "to win",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -1400,6 +1610,13 @@
     "topic": "furniture"
   },
   {
+    "german": "glauben",
+    "english": "to believe",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "gleich",
     "english": "like / equal",
     "gender": "",
@@ -1411,6 +1628,13 @@
     "english": "happy",
     "gender": "",
     "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "graben",
+    "english": "to dig",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -1473,7 +1697,7 @@
     "german": "haar",
     "english": "hair",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1515,14 +1739,21 @@
     "german": "hals",
     "english": "neck",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
+  },
+  {
+    "german": "halten",
+    "english": "to hold",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "hand",
     "english": "hand",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1557,7 +1788,7 @@
     "german": "haut",
     "english": "skin",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1593,7 +1824,7 @@
     "english": "autumn",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "nature"
   },
   {
     "german": "herd",
@@ -1606,7 +1837,7 @@
     "german": "herz",
     "english": "heart",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1614,6 +1845,13 @@
     "english": "here",
     "gender": "",
     "class": "adv",
+    "topic": ""
+  },
+  {
+    "german": "hilfen",
+    "english": "to help",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -1628,6 +1866,20 @@
     "english": "tall / high",
     "gender": "",
     "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "hoffen",
+    "english": "to hope",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "hören",
+    "english": "to hear",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -1673,6 +1925,20 @@
     "topic": ""
   },
   {
+    "german": "improvisieren",
+    "english": "to improvise",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "in Ordnung bringen",
+    "english": "to fix",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "ingenieur",
     "english": "engineer",
     "gender": "m",
@@ -1687,11 +1953,25 @@
     "topic": "profession"
   },
   {
+    "german": "jagen",
+    "english": "to hunt",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "jahr",
     "english": "year",
     "gender": "n",
     "class": "noun",
     "topic": ""
+  },
+  {
+    "german": "käfer",
+    "english": "beetle",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
   },
   {
     "german": "kajüte",
@@ -1715,6 +1995,20 @@
     "topic": "furniture"
   },
   {
+    "german": "kanin",
+    "english": "rabbit",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "kaninchen",
+    "english": "rabbit",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
     "german": "kartoffel",
     "english": "potato",
     "gender": "f",
@@ -1722,11 +2016,32 @@
     "topic": "food"
   },
   {
+    "german": "katze",
+    "english": "cat",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "kaufen",
+    "english": "to buy",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "kehle",
     "english": "throat",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
+  },
+  {
+    "german": "keiler",
+    "english": "boar",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
   },
   {
     "german": "kellner",
@@ -1792,24 +2107,31 @@
     "topic": "monetary"
   },
   {
+    "german": "klettern",
+    "english": "to climb",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "knie",
     "english": "knee",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
-    "german": "Knöchel",
+    "german": "knöchel",
     "english": "ankle",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
     "german": "knochen",
     "english": "bone",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1818,6 +2140,13 @@
     "gender": "m",
     "class": "noun",
     "topic": "profession"
+  },
+  {
+    "german": "kochen",
+    "english": "to cook",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "kocher",
@@ -1851,7 +2180,7 @@
     "german": "kopf",
     "english": "head",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -1904,6 +2233,13 @@
     "topic": "food"
   },
   {
+    "german": "kuh",
+    "english": "cow",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
     "german": "kühlschrank",
     "english": "fridge",
     "gender": "m",
@@ -1939,8 +2275,15 @@
     "topic": "anatomy"
   },
   {
+    "german": "lächeln",
+    "english": "to smile",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "lachen",
-    "english": "to laught",
+    "english": "to laugh",
     "gender": "",
     "class": "verb",
     "topic": ""
@@ -1967,11 +2310,25 @@
     "topic": "furniture"
   },
   {
+    "german": "lassen",
+    "english": "to leave (as)",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "lauch",
     "english": "leek",
     "gender": "m",
     "class": "noun",
     "topic": "food"
+  },
+  {
+    "german": "laufen",
+    "english": "to run",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "leben",
@@ -1991,8 +2348,22 @@
     "german": "leber",
     "english": "liver",
     "gender": "f",
+    "class": "verb",
+    "topic": "anatomy"
+  },
+  {
+    "german": "leberfleck",
+    "english": "mole",
+    "gender": "m",
     "class": "noun",
     "topic": "anatomy"
+  },
+  {
+    "german": "lehren",
+    "english": "to teach",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "lehrer",
@@ -2009,6 +2380,20 @@
     "topic": ""
   },
   {
+    "german": "lernen",
+    "english": "to learn",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "lesen",
+    "english": "to read",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "leute",
     "english": "people",
     "gender": "p",
@@ -2020,6 +2405,13 @@
     "english": "light",
     "gender": "n",
     "class": "noun",
+    "topic": "nature"
+  },
+  {
+    "german": "lieben",
+    "english": "to love",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -2047,7 +2439,7 @@
     "german": "lunge",
     "english": "lung",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -2061,8 +2453,15 @@
     "german": "magen",
     "english": "stomach",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
+  },
+  {
+    "german": "malen",
+    "english": "to paint (picture, person)",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "mann",
@@ -2114,6 +2513,13 @@
     "topic": "food"
   },
   {
+    "german": "meinen",
+    "english": "to mean (= refer to)",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "mensch",
     "english": "person",
     "gender": "m",
@@ -2153,14 +2559,14 @@
     "english": "month",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "time"
   },
   {
     "german": "morgen",
     "english": "morning",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "time"
   },
   {
     "german": "motorrad",
@@ -2173,7 +2579,7 @@
     "german": "mund",
     "english": "mouth",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -2201,7 +2607,7 @@
     "german": "muskel",
     "english": "muscle",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -2223,21 +2629,35 @@
     "english": "night",
     "gender": "f",
     "class": "noun",
-    "topic": ""
+    "topic": "time"
   },
   {
     "german": "nagel",
     "english": "nail",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
     "german": "nase",
     "english": "nose",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
+  },
+  {
+    "german": "nass",
+    "english": "wet",
+    "gender": "",
+    "class": "adj",
+    "topic": ""
+  },
+  {
+    "german": "nass machen",
+    "english": "to wet",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "neffe",
@@ -2250,7 +2670,7 @@
     "german": "nerv",
     "english": "nerve",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -2282,10 +2702,17 @@
     "topic": "office"
   },
   {
+    "german": "öffnen",
+    "english": "to open",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "ohr",
     "english": "ear",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -2349,7 +2776,7 @@
     "english": "pause",
     "gender": "f",
     "class": "noun",
-    "topic": ""
+    "topic": "office"
   },
   {
     "german": "pfanne",
@@ -2366,6 +2793,20 @@
     "topic": "food"
   },
   {
+    "german": "pferd",
+    "english": "horse",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "pflanzen",
+    "english": "to plant",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "pfund",
     "english": "pound",
     "gender": "n",
@@ -2377,7 +2818,7 @@
     "english": "photo",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "furniture"
   },
   {
     "german": "pizza",
@@ -2461,7 +2902,7 @@
     "english": "smoke",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "element"
   },
   {
     "german": "regal",
@@ -2471,11 +2912,18 @@
     "topic": "furniture"
   },
   {
+    "german": "reh",
+    "english": "deer",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
     "german": "reinigung",
     "english": "cleaning",
     "gender": "f",
     "class": "noun",
-    "topic": ""
+    "topic": "house"
   },
   {
     "german": "reis",
@@ -2489,7 +2937,7 @@
     "english": "to travel",
     "gender": "",
     "class": "verb",
-    "topic": ""
+    "topic": "transportation"
   },
   {
     "german": "reporter",
@@ -2524,14 +2972,14 @@
     "english": "role",
     "gender": "f",
     "class": "noun",
-    "topic": ""
+    "topic": "entertainment"
   },
   {
     "german": "rollenspiel",
     "english": "role play",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "entertainment"
   },
   {
     "german": "rot",
@@ -2544,8 +2992,15 @@
     "german": "rücken",
     "english": "back",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
+  },
+  {
+    "german": "ruhen",
+    "english": "to rest",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "saft",
@@ -2614,7 +3069,7 @@
     "german": "schenkel",
     "english": "thigh",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -2635,7 +3090,14 @@
     "german": "schienbein",
     "english": "shin",
     "gender": "n",
-    "class": "noun",
+    "class": "verb",
+    "topic": "anatomy"
+  },
+  {
+    "german": "schlafen",
+    "english": "to sleep",
+    "gender": "",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -2660,6 +3122,20 @@
     "topic": ""
   },
   {
+    "german": "schließen",
+    "english": "to close",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "schlucken",
+    "english": "to swallow",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "schlüssel",
     "english": "key",
     "gender": "m",
@@ -2674,10 +3150,24 @@
     "topic": ""
   },
   {
+    "german": "schmetterling",
+    "english": "butterfly",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
     "german": "schmutz",
     "english": "dirt",
     "gender": "m",
     "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "schneiden",
+    "english": "to cut",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -2699,7 +3189,7 @@
     "english": "to write",
     "gender": "",
     "class": "verb",
-    "topic": ""
+    "topic": "office"
   },
   {
     "german": "schreibtisch",
@@ -2719,7 +3209,7 @@
     "german": "schulter",
     "english": "shoulder",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -2744,11 +3234,32 @@
     "topic": "family"
   },
   {
+    "german": "schwanz",
+    "english": "tail",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
     "german": "schwarz",
     "english": "black",
     "gender": "",
     "class": "adj",
     "topic": "color"
+  },
+  {
+    "german": "schwein",
+    "english": "pig",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "schweinefleisch",
+    "english": "pork",
+    "gender": "n",
+    "class": "noun",
+    "topic": "animal"
   },
   {
     "german": "schwer",
@@ -2793,11 +3304,39 @@
     "topic": "family"
   },
   {
+    "german": "schwimmen",
+    "english": "to swim",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "schwören",
+    "english": "to swear",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "segelboot",
     "english": "sailing boat",
     "gender": "n",
     "class": "noun",
     "topic": "transportation"
+  },
+  {
+    "german": "segnen",
+    "english": "to bless",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "sehen",
+    "english": "to see",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "sein",
@@ -2819,6 +3358,34 @@
     "gender": "m",
     "class": "noun",
     "topic": "furniture"
+  },
+  {
+    "german": "sich erinnern",
+    "english": "to remember",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "sich verhalten",
+    "english": "to behave",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "sich verstellen",
+    "english": "to pretend",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "singen",
+    "english": "to sing",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "sklave",
@@ -2860,7 +3427,7 @@
     "english": "summer",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "nature"
   },
   {
     "german": "sonder",
@@ -2874,14 +3441,14 @@
     "english": "special offer",
     "gender": "n",
     "class": "noun",
-    "topic": ""
+    "topic": "monetary"
   },
   {
     "german": "sonne",
     "english": "sun",
     "gender": "f",
     "class": "noun",
-    "topic": ""
+    "topic": "nature"
   },
   {
     "german": "sonst",
@@ -2902,6 +3469,13 @@
     "english": "to play",
     "gender": "",
     "class": "verb",
+    "topic": "sport"
+  },
+  {
+    "german": "spielen",
+    "english": "to act (roleplay)",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -2909,13 +3483,6 @@
     "english": "player",
     "gender": "m",
     "class": "noun",
-    "topic": "sport"
-  },
-  {
-    "german": "spielen",
-    "english": "to play",
-    "gender": "",
-    "class": "verb",
     "topic": "sport"
   },
   {
@@ -2975,11 +3542,25 @@
     "topic": ""
   },
   {
+    "german": "steigen",
+    "english": "to rise",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "sterben",
+    "english": "to die",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "stern",
     "english": "star",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "nature"
   },
   {
     "german": "stiefmutter",
@@ -3024,10 +3605,24 @@
     "topic": ""
   },
   {
+    "german": "stören",
+    "english": "to disturb",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "straße",
     "english": "street",
     "gender": "f",
     "class": "noun",
+    "topic": ""
+  },
+  {
+    "german": "streichen",
+    "english": "to paint (wall, doog)",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -3045,6 +3640,13 @@
     "topic": "profession"
   },
   {
+    "german": "studieren",
+    "english": "to study",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "stuhl",
     "english": "chair",
     "gender": "m",
@@ -3057,6 +3659,13 @@
     "gender": "p",
     "class": "noun",
     "topic": "furniture"
+  },
+  {
+    "german": "suchen",
+    "english": "to look for",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "supermarkt",
@@ -3084,13 +3693,13 @@
     "english": "day",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "time"
   },
   {
     "german": "taille",
     "english": "waist",
     "gender": "f",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -3192,11 +3801,25 @@
     "topic": "food"
   },
   {
+    "german": "töten",
+    "english": "to kill",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "tourist",
     "english": "tourist",
     "gender": "m",
     "class": "noun",
     "topic": "profession"
+  },
+  {
+    "german": "tragen",
+    "english": "to carry",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "traum",
@@ -3213,11 +3836,39 @@
     "topic": ""
   },
   {
+    "german": "trinken",
+    "english": "to drink",
+    "gender": "",
+    "class": "verb",
+    "topic": "food"
+  },
+  {
+    "german": "trocknen",
+    "english": "to dry",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "türkei",
-    "english": "Turkey",
+    "english": "turkey",
     "gender": "f",
     "class": "noun",
     "topic": "country"
+  },
+  {
+    "german": "üben",
+    "english": "practise",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "übersetzen",
+    "english": "to translate",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "übung",
@@ -3235,7 +3886,7 @@
   },
   {
     "german": "ukraine",
-    "english": "Ukraine",
+    "english": "ukraine",
     "gender": "f",
     "class": "noun",
     "topic": "country"
@@ -3248,11 +3899,25 @@
     "topic": ""
   },
   {
+    "german": "unterbrechen",
+    "english": "to interrupt",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "unterhaltung",
     "english": "entertainment",
     "gender": "f",
     "class": "noun",
     "topic": "entertainment"
+  },
+  {
+    "german": "untersuchen",
+    "english": "to investigate",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "vater",
@@ -3262,11 +3927,39 @@
     "topic": "family"
   },
   {
+    "german": "verbessern",
+    "english": "to improve",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "verfluchen",
+    "english": "to put a curse on",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "vergessen",
+    "english": "to forget",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "verheiratet",
     "english": "married",
     "gender": "",
     "class": "adj",
     "topic": "family"
+  },
+  {
+    "german": "verkaufen",
+    "english": "to sell",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "verkäufer",
@@ -3283,8 +3976,29 @@
     "topic": "profession"
   },
   {
+    "german": "verlassen",
+    "english": "to leave (from)",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "verlieben",
     "english": "to fall in love",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "verlieren",
+    "english": "to lose",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "versprechen",
+    "english": "to promise",
     "gender": "",
     "class": "verb",
     "topic": ""
@@ -3297,6 +4011,20 @@
     "topic": ""
   },
   {
+    "german": "versuchen",
+    "english": "to try",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "vogel",
+    "english": "bird",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
     "german": "wagen",
     "english": "car",
     "gender": "m",
@@ -3304,11 +4032,32 @@
     "topic": "transportation"
   },
   {
+    "german": "wanze",
+    "english": "bug",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "warten",
+    "english": "to wait",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
     "german": "waschbecken",
     "english": "sink",
     "gender": "n",
     "class": "noun",
     "topic": "furniture"
+  },
+  {
+    "german": "waschen",
+    "english": "wash",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "waschmaschine",
@@ -3330,6 +4079,13 @@
     "gender": "m",
     "class": "noun",
     "topic": "food"
+  },
+  {
+    "german": "weinen",
+    "english": "to cry",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "weiß",
@@ -3371,14 +4127,14 @@
     "english": "winter",
     "gender": "m",
     "class": "noun",
-    "topic": ""
+    "topic": "nature"
   },
   {
     "german": "wohnen",
     "english": "to live at",
     "gender": "",
     "class": "verb",
-    "topic": ""
+    "topic": "house"
   },
   {
     "german": "wohnung",
@@ -3386,6 +4142,20 @@
     "gender": "f",
     "class": "noun",
     "topic": "house"
+  },
+  {
+    "german": "wolf",
+    "english": "wolf",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
+    "german": "wollen",
+    "english": "to want",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
   },
   {
     "german": "wort",
@@ -3407,6 +4177,20 @@
     "gender": "",
     "class": "adj",
     "topic": ""
+  },
+  {
+    "german": "wünschen",
+    "english": "to wish",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "wurm",
+    "english": "worm",
+    "gender": "m",
+    "class": "noun",
+    "topic": "animal"
   },
   {
     "german": "wurst",
@@ -3437,10 +4221,24 @@
     "topic": "monetary"
   },
   {
+    "german": "zahn",
+    "english": "tooth",
+    "gender": "m",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
+    "german": "zecke",
+    "english": "ticket",
+    "gender": "f",
+    "class": "noun",
+    "topic": "animal"
+  },
+  {
     "german": "zeh",
     "english": "toe",
     "gender": "m",
-    "class": "noun",
+    "class": "verb",
     "topic": "anatomy"
   },
   {
@@ -3448,6 +4246,13 @@
     "english": "time",
     "gender": "f",
     "class": "noun",
+    "topic": "nature"
+  },
+  {
+    "german": "ziehen",
+    "english": "to draw (move by puling)",
+    "gender": "",
+    "class": "verb",
     "topic": ""
   },
   {
@@ -3486,17 +4291,24 @@
     "topic": "transportation"
   },
   {
+    "german": "zuhören",
+    "english": "to listen",
+    "gender": "",
+    "class": "verb",
+    "topic": ""
+  },
+  {
+    "german": "zunge",
+    "english": "tong",
+    "gender": "f",
+    "class": "noun",
+    "topic": "anatomy"
+  },
+  {
     "german": "zwiebel",
     "english": "onion",
     "gender": "f",
     "class": "noun",
     "topic": "food"
-  },
-  {
-    "german": "feuer",
-    "english": "fire",
-    "gender": "n",
-    "class": "noun",
-    "topic": "element"
   }
 ]
